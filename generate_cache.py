@@ -49,7 +49,8 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
         data["start"] = ev.period.start_time.strftime("%I:%M %p")
         data["end"] = ev.period.end_time.strftime("%I:%M %p")
 
-        data["subject"] = ev.event_string + f"({ev.eventcode})"
+        data["subject"] = ev.event or ev.eventcode
+        data["subjectcode"] = ev.eventcode
         data["teacher"] = ', '.join(ev.lecturer)
         data["batches"] = ev.batches
         data["venue"] = ev.classroom
