@@ -88,7 +88,7 @@ def generate_json():
                 classes[class_batch_key] = {"cacheVersion": CACHE_VERSION, "classes":{}}
                 for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
 
-                    classes[class_batch_key]["classes"][day] =  filter_events(evs, batch, "Wednesday")
+                    classes[class_batch_key]["classes"][day] =  filter_events(evs, batch, day)
 
 
     
