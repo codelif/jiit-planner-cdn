@@ -79,6 +79,7 @@ def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
     evs = parse_events(sheet, r, c, "faculty.json")
     batches = set()
     for ev in evs:
+        print(ev)
         batches = batches.union(ev.batches)
     
     return evs, sorted(batches, key=split_on_number)
