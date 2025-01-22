@@ -100,7 +100,7 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
 
         data["subject"] = ev.event or ev.eventcode
         data["subjectcode"] = ev.eventcode
-        data["teacher"] = ', '.join(ev.lecturer)
+        data["teacher"] = ', '.join(ev.lecturer) + 'wow'
         data["batches"] = ev.batches
         data["venue"] = ev.classroom
         data["type"] = ev.event_type
