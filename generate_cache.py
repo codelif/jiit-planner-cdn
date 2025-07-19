@@ -8,6 +8,7 @@ import datetime
 import os
 import openpyxl
 from typing import Dict, List
+from generate_icalendar import generate_icalendars,generate_icalendars_json
 
 TIME_TABLE = os.path.join("raw", "time_tables")
 FACULTY = os.path.join("raw", "faculty")
@@ -159,6 +160,10 @@ if __name__ == "__main__":
     # json.dump(metadata, sys.stdout)
     # json.dump(classes, sys.stdout)
 
+    # Generate iCalendar files
+    generate_icalendars_json("classes.json")
+    #generate_icalendars(classes) use when classes data fixed
+    
     with open("classes.json", "w+") as f:
         json.dump(classes, f)
     with open("metadata.json", "w+") as f:
