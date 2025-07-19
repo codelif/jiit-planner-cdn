@@ -11,6 +11,7 @@ from typing import Dict, List
 
 TIME_TABLE = os.path.join("raw", "time_tables")
 FACULTY = os.path.join("raw", "faculty")
+sheet_electives= "./raw/electives/electives.xlsx"
 
 
 def maps():
@@ -79,7 +80,7 @@ def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
         return [],[]
 
     sheet, r, c = load_worksheet(branch_xl)
-    evs = parse_events(sheet, r, c, "faculty.json")
+    evs = parse_events(sheet,sheet_electives, r, c, "faculty.json")
     batches = set()
     for ev in evs:
         if ev != None:
