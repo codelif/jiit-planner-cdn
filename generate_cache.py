@@ -83,7 +83,7 @@ def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
     evs = parse_events(sheet,sheet_electives, r, c, "faculty.json")
     batches = set()
     for ev in evs:
-        if ev != None:
+        if ev is not None:
             print(ev)
             batches = batches.union(ev.batches)
     
@@ -94,6 +94,7 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
     filtered_evs = []
 
     for ev in evs:
+        print(ev)
         if ev != None:
             if (batch is None) or (batch not in ev.batches):
                 continue
@@ -119,7 +120,7 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
 def generate_json():
     CACHE_VERSION = datetime.datetime.today().strftime("v%Y.%m.%d.%H.%M.%S")
     branches, semesters, phases, excels = maps()
-
+    print(maps())
     metadata = {"cacheVersion": CACHE_VERSION, "courses": [], "semesters": {}, "phases": {}, "batches": {}}
     classes = {}
     for course_id, course in branches.items():
@@ -139,6 +140,7 @@ def generate_json():
                 metadata["batches"][course_id][sem_id][phase_id] = []
                 excel_path = excels.get('_'.join((course_id, sem_id, phase_id)))
                 evs, batches = get_events(excel_path)
+                print(batches)
                 for batch in batches:
                     batch_id = batch.lower()
                     metadata["batches"][course_id][sem_id][phase_id].append({"id": batch_id, "name": batch})
