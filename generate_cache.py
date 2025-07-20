@@ -1,18 +1,20 @@
 from jiit_tt_parser.parser import parse_events
 from jiit_tt_parser.utils import load_worksheet
-from jiit_tt_parser.utils.cache import get_cache_file
 from jiit_tt_parser.parser.parse_events import Event
-from jiit_tt_parser.parser.parse_faculty import search_bounds, generate_faculty_map, get_faculty_map_from_sem1,get_faculty_map_from_bca1_N_128
+from jiit_tt_parser.parser.parse_faculty import (
+    generate_faculty_map,
+    get_faculty_map_from_sem1,
+    get_faculty_map_from_bca1_N_128,
+)
 import json
 import datetime
 import os
-import openpyxl
 from typing import Dict, List
-from generate_icalendar import generate_icalendars,generate_icalendars_json
+from generate_icalendar import generate_icalendars_json
 
 TIME_TABLE = os.path.join("raw", "time_tables")
 FACULTY = os.path.join("raw", "faculty")
-sheet_electives= "./raw/electives/electives.xlsx"
+electives_file = "./raw/electives/electives.xlsx"
 
 
 def maps():
@@ -37,7 +39,7 @@ def maps():
 
             semesters[branch_code].append(sem)
             phases[branch_code][sem] = []
-            
+
             for tt in os.listdir(os.path.join(TIME_TABLE, branch, sem)):
                 path = os.path.abspath(os.path.join(TIME_TABLE, branch, sem, tt))
                 if not os.path.isfile(path):
@@ -45,11 +47,12 @@ def maps():
 
                 if not path.endswith((".xls", ".xlsx")):
                     continue
-                phase = tt.split('.')[0]
+                phase = tt.split(".")[0]
                 phases[branch_code][sem].append(phase)
-                paths[f'{branch_code}_sem{sem}_phase{phase}'] = path
-    
+                paths[f"{branch_code}_sem{sem}_phase{phase}"] = path
+
     return branches, semesters, phases, paths
+
 
 def split_on_number(key: str):
     for i, k in enumerate(key):
@@ -58,36 +61,39 @@ def split_on_number(key: str):
 
     return key, 0
 
+
 def get_faculty_map():
-    fac1_xl_path = './raw/faculty/10. Faculty Abbreviations_Even 2025.xlsx'
+    fac1_xl_path = "./raw/faculty/10. Faculty Abbreviations_Even 2025.xlsx"
     sem1_xl_path = "./raw/faculty/1. BTech II Sem _Even 2025.xlsx"
-    bca1_xl_path = './raw/faculty/6. BCA II Sem and IV Sem_Even 2025.xlsx'
+    bca1_xl_path = "./raw/faculty/6. BCA II Sem and IV Sem_Even 2025.xlsx"
     fac128_xl_path = "./raw/faculty/timetable (1).xlsx"
 
-    wb = openpyxl.load_workbook(fac1_xl_path)
-    sheet = wb.active
-    r, c = search_bounds(sheet)
-
-    faculty_map = generate_faculty_map(sheet, r, c)
+    faculty_map = {}
+    faculty_map.update(generate_faculty_map(fac1_xl_path))
     faculty_map.update(get_faculty_map_from_sem1(sem1_xl_path))
     faculty_map.update(get_faculty_map_from_bca1_N_128(bca1_xl_path))
     faculty_map.update(get_faculty_map_from_bca1_N_128(fac128_xl_path))
-    
+
     with open("faculty.json", "w+") as f:
         json.dump(faculty_map, f)
 
+
 def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
     if not branch_xl:
-        return [],[]
+        return [], []
 
-    sheet, r, c = load_worksheet(branch_xl)
-    evs = parse_events(sheet,sheet_electives, r, c, "faculty.json")
+    ws = load_worksheet(branch_xl)
+    if ws is None:
+        return [], []
+
+    sheet, r, c = ws
+    evs = parse_events(sheet, electives_file, r, c, "faculty.json")
     batches = set()
     for ev in evs:
         if ev is not None:
             print(ev)
             batches = batches.union(ev.batches)
-    
+
     return evs, sorted(batches, key=split_on_number)
 
 
@@ -96,24 +102,26 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
 
     for ev in evs:
         # print(ev)
-        if ev != None:
-            if (batch is None) or (batch not in ev.batches):
-                continue
+        if ev is None:
+            continue
 
-            if (day is not None) and (not ev.day.lower() == day.lower()):
-                continue
-            data = {}
-            data["start"] = ev.period.start_time.strftime("%I:%M %p")
-            data["end"] = ev.period.end_time.strftime("%I:%M %p")
+        if (batch is None) or (batch not in ev.batches):
+            continue
 
-            data["subject"] = ev.event or ev.eventcode
-            data["subjectcode"] = ev.eventcode
-            data["teacher"] = ', '.join(ev.lecturer)
-            data["batches"] = ev.batches
-            data["venue"] = ev.classroom
-            data["type"] = ev.event_type
+        if (day is not None) and (not ev.day.lower() == day.lower()):
+            continue
+        data = {}
+        data["start"] = ev.period.start_time.strftime("%I:%M %p")
+        data["end"] = ev.period.end_time.strftime("%I:%M %p")
 
-            filtered_evs.append(data)
+        data["subject"] = ev.event or ev.eventcode
+        data["subjectcode"] = ev.eventcode
+        data["teacher"] = ", ".join(ev.lecturer)
+        data["batches"] = ev.batches
+        data["venue"] = ev.classroom
+        data["type"] = ev.event_type
+
+        filtered_evs.append(data)
 
     return filtered_evs
 
@@ -121,7 +129,13 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
 def generate_json():
     CACHE_VERSION = datetime.datetime.today().strftime("v%Y.%m.%d.%H.%M.%S")
     branches, semesters, phases, excels = maps()
-    metadata = {"cacheVersion": CACHE_VERSION, "courses": [], "semesters": {}, "phases": {}, "batches": {}}
+    metadata = {
+        "cacheVersion": CACHE_VERSION,
+        "courses": [],
+        "semesters": {},
+        "phases": {},
+        "batches": {},
+    }
     classes = {}
     for course_id, course in branches.items():
         metadata["courses"].append({"id": course_id, "name": course})
@@ -133,26 +147,41 @@ def generate_json():
             metadata["semesters"][course_id].append({"id": sem_id, "name": str(sem)})
             metadata["phases"][course_id][sem_id] = []
             metadata["batches"][course_id][sem_id] = {}
-            
+
             for phase in phases[course_id][sem]:
                 phase_id = f"phase{phase}"
-                metadata["phases"][course_id][sem_id].append({"id": phase_id, "name": str(phase)})
+                metadata["phases"][course_id][sem_id].append(
+                    {"id": phase_id, "name": str(phase)}
+                )
                 metadata["batches"][course_id][sem_id][phase_id] = []
-                excel_path = excels.get('_'.join((course_id, sem_id, phase_id)))
+                excel_path = excels.get("_".join((course_id, sem_id, phase_id)))
                 evs, batches = get_events(excel_path)
                 print(batches)
                 for batch in batches:
                     batch_id = batch.lower()
-                    metadata["batches"][course_id][sem_id][phase_id].append({"id": batch_id, "name": batch})
+                    metadata["batches"][course_id][sem_id][phase_id].append(
+                        {"id": batch_id, "name": batch}
+                    )
                     class_batch_key = "_".join((course_id, sem_id, phase_id, batch_id))
-                    classes[class_batch_key] = {"cacheVersion": CACHE_VERSION, "classes":{}}
-                    for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
+                    classes[class_batch_key] = {
+                        "cacheVersion": CACHE_VERSION,
+                        "classes": {},
+                    }
+                    for day in [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday",
+                        "Sunday",
+                    ]:
+                        classes[class_batch_key]["classes"][day] = filter_events(
+                            evs, batch, day
+                        )
 
-                        classes[class_batch_key]["classes"][day] =  filter_events(evs, batch, day)
-
-
-    
     return metadata, classes
+
 
 if __name__ == "__main__":
     get_faculty_map()
@@ -163,8 +192,8 @@ if __name__ == "__main__":
 
     # Generate iCalendar files
     generate_icalendars_json("classes.json")
-    #generate_icalendars(classes) use when classes data fixed
-    
+    # generate_icalendars(classes) use when classes data fixed
+
     with open("classes.json", "w+") as f:
         json.dump(classes, f)
     with open("metadata.json", "w+") as f:
