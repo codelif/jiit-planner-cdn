@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//JIIT Planner//Timetable btech-62 sem5 phase1 b10//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:JIIT BTECH-62 SEM5 PHASE1 B10 Timetable
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:20250720T133050
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Consumer Behaviour (HS311)
+DTSTART;TZID=Asia/Kolkata:20250721T100000
+DTEND;TZID=Asia/Kolkata:20250721T110000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Monday_10:00 AM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Consumer Behaviour\nSubject Code: HS311\nTeacher: Dr.
+  Namreeta Kumari\nVenue: G8\nType: L\nBatches: B9\, B10
+LOCATION:G8
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operating Systems and Systems Programming (CI412)
+DTSTART;TZID=Asia/Kolkata:20250721T110000
+DTEND;TZID=Asia/Kolkata:20250721T120000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Monday_11:00 AM_CI412
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Operating Systems and Systems Programming\nSubject Co
+ de: CI412\nTeacher: Dr. Dhanalakshmi\nVenue: FF2\nType: L\nBatches: B9\, B
+ 10
+LOCATION:FF2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Source Software lab (CI575)
+DTSTART;TZID=Asia/Kolkata:20250721T130000
+DTEND;TZID=Asia/Kolkata:20250721T150000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Monday_01:00 PM_CI575
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Open Source Software lab\nSubject Code: CI575\nTeache
+ r: Ms. Dipti Singh\, ROH\, Dr. Somya Jain\nVenue: CL01/CL02\nType: P\nBatc
+ hes: B9\, B10
+LOCATION:CL01/CL02
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer Organisation & Architecture (CI313)
+DTSTART;TZID=Asia/Kolkata:20250721T150000
+DTEND;TZID=Asia/Kolkata:20250721T160000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Monday_03:00 PM_CI313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Organisation & Architecture\nSubject Code: C
+ I313\nTeacher: Dr. Ayush Tripathi\nVenue: CR401\nType: L\nBatches: B9\, B1
+ 0
+LOCATION:CR401
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Information Security Lab (CI576)
+DTSTART;TZID=Asia/Kolkata:20250722T100000
+DTEND;TZID=Asia/Kolkata:20250722T120000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Tuesday_10:00 AM_CI576
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Information Security Lab\nSubject Code: CI576\nTeache
+ r: Dr. Arpita Jadav Bhatt\, Dr. Kavita Pandey\, Dr. Sakshi Gupta\nVenue: C
+ L17/CL18\nType: P\nBatches: B9\, B10
+LOCATION:CL17/CL18
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer Organisation & Architecture (CI313)
+DTSTART;TZID=Asia/Kolkata:20250722T130000
+DTEND;TZID=Asia/Kolkata:20250722T140000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Tuesday_01:00 PM_CI313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Organisation & Architecture\nSubject Code: C
+ I313\nTeacher: Dr. Ayush Tripathi\nVenue: G8\nType: L\nBatches: B9\, B10
+LOCATION:G8
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operating Systems and Systems Programming (CI412)
+DTSTART;TZID=Asia/Kolkata:20250722T150000
+DTEND;TZID=Asia/Kolkata:20250722T160000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Tuesday_03:00 PM_CI412
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Operating Systems and Systems Programming\nSubject Co
+ de: CI412\nTeacher: Dr. Dhanalakshmi\nVenue: FF2\nType: L\nBatches: B9\, B
+ 10
+LOCATION:FF2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer Organisation & Architecture (CI313)
+DTSTART;TZID=Asia/Kolkata:20250723T100000
+DTEND;TZID=Asia/Kolkata:20250723T110000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Wednesday_10:00 AM_CI313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Organisation & Architecture\nSubject Code: C
+ I313\nTeacher: Dr. Taj Alam\nVenue: TR305\nType: T\nBatches: B10
+LOCATION:TR305
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operating Systems and Systems Programming (CI412)
+DTSTART;TZID=Asia/Kolkata:20250723T110000
+DTEND;TZID=Asia/Kolkata:20250723T120000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Wednesday_11:00 AM_CI412
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Operating Systems and Systems Programming\nSubject Co
+ de: CI412\nTeacher: Neha\nVenue: TR326\nType: T\nBatches: B10
+LOCATION:TR326
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Consumer Behaviour (HS311)
+DTSTART;TZID=Asia/Kolkata:20250723T140000
+DTEND;TZID=Asia/Kolkata:20250723T150000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Wednesday_02:00 PM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Consumer Behaviour\nSubject Code: HS311\nTeacher: Dr.
+  Namreeta Kumari\nVenue: G6\nType: L\nBatches: B9\, B10
+LOCATION:G6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operating Systems and Systems Programming (CI412)
+DTSTART;TZID=Asia/Kolkata:20250723T150000
+DTEND;TZID=Asia/Kolkata:20250723T160000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Wednesday_03:00 PM_CI412
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Operating Systems and Systems Programming\nSubject Co
+ de: CI412\nTeacher: Dr. Dhanalakshmi\nVenue: FF2\nType: L\nBatches: B9\, B
+ 10
+LOCATION:FF2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer Organisation & Architecture Lab (CI373)
+DTSTART;TZID=Asia/Kolkata:20250724T140000
+DTEND;TZID=Asia/Kolkata:20250724T160000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Thursday_02:00 PM_CI373
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Organisation & Architecture Lab\nSubject Cod
+ e: CI373\nTeacher: Akanksha Bhardwaj\, Dr. Pawan Upadhyay\nVenue: CL23\nTy
+ pe: P\nBatches: B10
+LOCATION:CL23
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer Organisation & Architecture (CI313)
+DTSTART;TZID=Asia/Kolkata:20250725T100000
+DTEND;TZID=Asia/Kolkata:20250725T110000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Friday_10:00 AM_CI313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Organisation & Architecture\nSubject Code: C
+ I313\nTeacher: Dr. Ayush Tripathi\nVenue: FF2\nType: L\nBatches: B9\, B10
+LOCATION:FF2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Consumer Behaviour (HS311)
+DTSTART;TZID=Asia/Kolkata:20250725T110000
+DTEND;TZID=Asia/Kolkata:20250725T120000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Friday_11:00 AM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Consumer Behaviour\nSubject Code: HS311\nTeacher: Dr.
+  Namreeta Kumari\nVenue: G8\nType: L\nBatches: B9\, B10
+LOCATION:G8
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operating Systems and Systems Lab Programming (CI472)
+DTSTART;TZID=Asia/Kolkata:20250726T100000
+DTEND;TZID=Asia/Kolkata:20250726T120000
+DTSTAMP:20250720T080050Z
+UID:btech-62_sem5_phase1_b10_Saturday_10:00 AM_CI472
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Operating Systems and Systems Lab Programming\nSubjec
+ t Code: CI472\nTeacher: JAG\, Ms. Kirti Jain\, Neha\nVenue: CL13/CL14\nTyp
+ e: P\nBatches: B9\, B10
+LOCATION:CL13/CL14
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+END:VCALENDAR

@@ -95,7 +95,7 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
     filtered_evs = []
 
     for ev in evs:
-        print(ev)
+        # print(ev)
         if ev != None:
             if (batch is None) or (batch not in ev.batches):
                 continue
@@ -121,7 +121,6 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
 def generate_json():
     CACHE_VERSION = datetime.datetime.today().strftime("v%Y.%m.%d.%H.%M.%S")
     branches, semesters, phases, excels = maps()
-    print(maps())
     metadata = {"cacheVersion": CACHE_VERSION, "courses": [], "semesters": {}, "phases": {}, "batches": {}}
     classes = {}
     for course_id, course in branches.items():
