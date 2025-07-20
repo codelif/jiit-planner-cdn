@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//JIIT Planner//Timetable btech-62 sem3 phase1 b1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:JIIT BTECH-62 SEM3 PHASE1 B1 Timetable
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:20250720T102155
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Mathematical Foundations for Artificial Intelligence and Data Scie
+ nce (MA213)
+DTSTART;TZID=Asia/Kolkata:20250721T090000
+DTEND;TZID=Asia/Kolkata:20250721T100000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Monday_09:00 AM_MA213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Mathematical Foundations for Artificial Intelligence 
+ and Data Science\nSubject Code: MA213\nTeacher: Dr. Anuj Bhardwaj\nVenue: 
+ TS13\nType: T\nBatches: B1
+LOCATION:TS13
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures (CI311)
+DTSTART;TZID=Asia/Kolkata:20250721T100000
+DTEND;TZID=Asia/Kolkata:20250721T110000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Monday_10:00 AM_CI311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures\nSubject Code: CI311\nTeacher: Prof. 
+ Manish Kumar Thakur\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Theoretical Foundations of Computer Science (CS212)
+DTSTART;TZID=Asia/Kolkata:20250721T120000
+DTEND;TZID=Asia/Kolkata:20250721T130000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Monday_12:00 PM_CS212
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Theoretical Foundations of Computer Science\nSubject 
+ Code: CS212\nTeacher: Dr. Asmita Yadav\nVenue: G1\nType: L\nBatches: B1\, 
+ B2
+LOCATION:G1
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Database Management Systems Lab (B15CS213)
+DTSTART;TZID=Asia/Kolkata:20250721T150000
+DTEND;TZID=Asia/Kolkata:20250721T170000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Monday_03:00 PM_B15CS213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Database Management Systems Lab\nSubject Code: B15CS2
+ 13\nTeacher: PSO\, DCH\nVenue: CL14\nType: P\nBatches: B1
+LOCATION:CL14
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mathematical Foundations for Artificial Intelligence and Data Scie
+ nce (MA213)
+DTSTART;TZID=Asia/Kolkata:20250722T090000
+DTEND;TZID=Asia/Kolkata:20250722T100000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_09:00 AM_MA213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Mathematical Foundations for Artificial Intelligence 
+ and Data Science\nSubject Code: MA213\nTeacher: Dr. Anuj Bhardwaj\nVenue: 
+ FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unix Programming (CS214)
+DTSTART;TZID=Asia/Kolkata:20250722T100000
+DTEND;TZID=Asia/Kolkata:20250722T110000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_10:00 AM_CS214
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Unix Programming\nSubject Code: CS214\nTeacher: DEEPI
+ KA VARSHNEY\nVenue: CR526\nType: L\nBatches: B1\, B2
+LOCATION:CR526
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Theoretical Foundations of Computer Science (CS212)
+DTSTART;TZID=Asia/Kolkata:20250722T110000
+DTEND;TZID=Asia/Kolkata:20250722T120000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_11:00 AM_CS212
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Theoretical Foundations of Computer Science\nSubject 
+ Code: CS212\nTeacher: Dr. Asmita Yadav\nVenue: G3\nType: L\nBatches: B1\, 
+ B2
+LOCATION:G3
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Database Management Systems (CS213)
+DTSTART;TZID=Asia/Kolkata:20250722T120000
+DTEND;TZID=Asia/Kolkata:20250722T130000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_12:00 PM_CS213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Database Management Systems\nSubject Code: CS213\nTea
+ cher: Dr. Parmeet Kaur\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures (CI311)
+DTSTART;TZID=Asia/Kolkata:20250722T140000
+DTEND;TZID=Asia/Kolkata:20250722T150000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_02:00 PM_CI311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures\nSubject Code: CI311\nTeacher: Prof. 
+ Manish Kumar Thakur\nVenue: G1\nType: L\nBatches: B1\, B2
+LOCATION:G1
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures (CI311)
+DTSTART;TZID=Asia/Kolkata:20250722T140000
+DTEND;TZID=Asia/Kolkata:20250722T150000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_02:00 PM_CI311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures\nSubject Code: CI311\nTeacher: \nVenu
+ e: TS17KRL\nType: T\nBatches: B1
+LOCATION:TS17KRL
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Economics (HS211)
+DTSTART;TZID=Asia/Kolkata:20250722T160000
+DTEND;TZID=Asia/Kolkata:20250722T170000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Tuesday_04:00 PM_HS211
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Economics\nSubject Code: HS211\nTeacher: Dr. Manas Ra
+ njan Behera\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures Lab (CI371)
+DTSTART;TZID=Asia/Kolkata:20250723T090000
+DTEND;TZID=Asia/Kolkata:20250723T110000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Wednesday_09:00 AM_CI371
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures Lab\nSubject Code: CI371\nTeacher: Dr
+ . Varun\, Noor Mohammad\nVenue: CL14\nType: P\nBatches: B1
+LOCATION:CL14
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures (CI311)
+DTSTART;TZID=Asia/Kolkata:20250723T110000
+DTEND;TZID=Asia/Kolkata:20250723T120000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Wednesday_11:00 AM_CI311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures\nSubject Code: CI311\nTeacher: Prof. 
+ Manish Kumar Thakur\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mathematical Foundations for Artificial Intelligence and Data Scie
+ nce (MA213)
+DTSTART;TZID=Asia/Kolkata:20250723T120000
+DTEND;TZID=Asia/Kolkata:20250723T130000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Wednesday_12:00 PM_MA213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Mathematical Foundations for Artificial Intelligence 
+ and Data Science\nSubject Code: MA213\nTeacher: Dr. Anuj Bhardwaj\nVenue: 
+ G2\nType: L\nBatches: B1\, B2
+LOCATION:G2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Theoretical Foundations of Computer Science (CS212)
+DTSTART;TZID=Asia/Kolkata:20250724T090000
+DTEND;TZID=Asia/Kolkata:20250724T100000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Thursday_09:00 AM_CS212
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Theoretical Foundations of Computer Science\nSubject 
+ Code: CS212\nTeacher: Dr. Asmita Yadav\nVenue: CS4\nType: L\nBatches: B1\,
+  B2
+LOCATION:CS4
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Economics (HS211)
+DTSTART;TZID=Asia/Kolkata:20250724T110000
+DTEND;TZID=Asia/Kolkata:20250724T120000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Thursday_11:00 AM_HS211
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Economics\nSubject Code: HS211\nTeacher: Dr. Manas Ra
+ njan Behera\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Database Management Systems (CS213)
+DTSTART;TZID=Asia/Kolkata:20250724T140000
+DTEND;TZID=Asia/Kolkata:20250724T150000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Thursday_02:00 PM_CS213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Database Management Systems\nSubject Code: CS213\nTea
+ cher: Dr. Parmeet Kaur\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mathematical Foundations for Artificial Intelligence and Data Scie
+ nce (MA213)
+DTSTART;TZID=Asia/Kolkata:20250724T150000
+DTEND;TZID=Asia/Kolkata:20250724T160000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Thursday_03:00 PM_MA213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Mathematical Foundations for Artificial Intelligence 
+ and Data Science\nSubject Code: MA213\nTeacher: Dr. Anuj Bhardwaj\nVenue: 
+ FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unix Programming Lab (B15CS214)
+DTSTART;TZID=Asia/Kolkata:20250725T090000
+DTEND;TZID=Asia/Kolkata:20250725T110000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Friday_09:00 AM_B15CS214
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Unix Programming Lab\nSubject Code: B15CS214\nTeacher
+ : PKAU\, Ms. Purti Kohli\, Dr. Meenal\nVenue: CL06\nType: P\nBatches: B1
+LOCATION:CL06
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Economics (HS211)
+DTSTART;TZID=Asia/Kolkata:20250725T110000
+DTEND;TZID=Asia/Kolkata:20250725T120000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Friday_11:00 AM_HS211
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Economics\nSubject Code: HS211\nTeacher: Piyush Sharm
+ a\nVenue: TS8\nType: T\nBatches: B1
+LOCATION:TS8
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Database Management Systems (CS213)
+DTSTART;TZID=Asia/Kolkata:20250725T120000
+DTEND;TZID=Asia/Kolkata:20250725T130000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Friday_12:00 PM_CS213
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Database Management Systems\nSubject Code: CS213\nTea
+ cher: Dr. Parmeet Kaur\nVenue: FF6\nType: L\nBatches: B1\, B2
+LOCATION:FF6
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Object Oriented Programming using Java (B15CS215)
+DTSTART;TZID=Asia/Kolkata:20250725T150000
+DTEND;TZID=Asia/Kolkata:20250725T170000
+DTSTAMP:20250720T045155Z
+UID:btech-62_sem3_phase1_b1_Friday_03:00 PM_B15CS215
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Object Oriented Programming using Java\nSubject Code:
+  B15CS215\nTeacher: Neetu Singh\, Pratik Shrivastava\, Ms. Kirti Agarwal\n
+ Venue: CL05\nType: P\nBatches: B1
+LOCATION:CL05
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+END:VCALENDAR
