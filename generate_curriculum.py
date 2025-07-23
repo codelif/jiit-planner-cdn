@@ -2,7 +2,6 @@ from typing import Dict, List, Callable, Optional
 import camelot
 from camelot.core import TableList
 import json
-import sys
 
 PATH = "./raw/electives/curriculum{year}.pdf"
 YEARS = [2018, 2024]
@@ -188,7 +187,8 @@ def generate_courses() -> Dict[str, str]:
     curr = {}
     for courses in courses_years:
         for k, v in courses.items():
-            curr.update({k: v, k[2:]: v, k[5:]: v})
+            # 15B19CI891 B19CI891 19CI891 CI891
+            curr.update({k: v, k[2:]: v, k[3:]: v, k[5:]: v})
 
     return curr
 
@@ -199,4 +199,5 @@ def curriculum():
 
 if __name__ == "__main__":
     e = curriculum()
-    json.dump(e, sys.stdout, indent=2)
+    with open("curriculum.json", "w+") as f:
+        json.dump(e, f)

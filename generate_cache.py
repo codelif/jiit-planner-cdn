@@ -11,6 +11,7 @@ import datetime
 import os
 from typing import Dict, List
 from generate_icalendar import generate_icalendars_json
+from generate_curriculum import curriculum
 
 TIME_TABLE = os.path.join("raw", "time_tables")
 FACULTY = os.path.join("raw", "faculty")
@@ -77,6 +78,10 @@ def get_faculty_map():
     with open("faculty.json", "w+") as f:
         json.dump(faculty_map, f)
 
+def get_curriculum_map():
+    e = curriculum()
+    with open("curriculum.json", "w+") as f:
+        json.dump(e, f)
 
 def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
     if not branch_xl:
@@ -87,11 +92,11 @@ def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
         return [], []
 
     sheet, r, c = ws
-    evs = parse_events(sheet, electives_file, r, c, "faculty.json")
+    evs = parse_events(sheet, electives_file, r, c, "faculty.json", "curriculum.json")
     batches = set()
     for ev in evs:
         if ev is not None:
-            print(ev)
+            # print(ev)
             batches = batches.union(ev.batches)
 
     return evs, sorted(batches, key=split_on_number)
@@ -185,6 +190,7 @@ def generate_json():
 
 if __name__ == "__main__":
     get_faculty_map()
+    
     metadata, classes = generate_json()
     # import sys
     # json.dump(metadata, sys.stdout)
