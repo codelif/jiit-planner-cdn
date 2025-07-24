@@ -187,8 +187,8 @@ def generate_courses() -> Dict[str, str]:
     curr = {}
     for courses in courses_years:
         for k, v in courses.items():
-            # 15B19CI891 B19CI891 19CI891 CI891
-            curr.update({k: v, k[2:]: v, k[3:]: v, k[5:]: v})
+            # 15B19CI891 B19CI891 19CI891
+            curr.update({k: v, k[2:]: v, k[3:]: v})
 
     return curr
 
