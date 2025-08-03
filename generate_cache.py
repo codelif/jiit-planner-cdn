@@ -67,23 +67,27 @@ def get_faculty_map():
     fac1_xl_path = "./raw/faculty/10. Faculty Abbreviations_Even 2025.xlsx"
     sem1_xl_path = "./raw/faculty/1. BTech II Sem _Even 2025.xlsx"
     bca1_xl_path = "./raw/faculty/6. BCA II Sem and IV Sem_Even 2025.xlsx"
-    fac128_xl_path = "./raw/faculty/timetable (1).xlsx"
+    fac128_xl_path = "./raw/faculty/1.xlsx"
 
-    faculty_map = {}
-    faculty_map.update(generate_faculty_map(fac1_xl_path))
-    faculty_map.update(get_faculty_map_from_sem1(sem1_xl_path))
-    faculty_map.update(get_faculty_map_from_bca1_N_128(bca1_xl_path))
-    faculty_map.update(get_faculty_map_from_bca1_N_128(fac128_xl_path))
+    faculty_map_62 = {}
+    faculty_map_128 = {}
+    faculty_map_62.update(generate_faculty_map(fac1_xl_path))
+    faculty_map_62.update(get_faculty_map_from_sem1(sem1_xl_path))
+    faculty_map_62.update(get_faculty_map_from_bca1_N_128(bca1_xl_path))
+    faculty_map_128.update(get_faculty_map_from_bca1_N_128(fac128_xl_path))
 
-    with open("faculty.json", "w+") as f:
-        json.dump(faculty_map, f)
+    with open("faculty_62.json", "w+") as f:
+        json.dump(faculty_map_62, f)
+    with open("faculty_128.json", "w+") as f:
+        json.dump(faculty_map_128, f)
+
 
 def get_curriculum_map():
     e = curriculum()
     with open("curriculum.json", "w+") as f:
         json.dump(e, f)
 
-def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
+def get_events(branch_xl: str | None, faculty_json: str) -> tuple[List[Event], List[str]]:
     if not branch_xl:
         return [], []
 
@@ -92,7 +96,7 @@ def get_events(branch_xl: str | None) -> tuple[List[Event], List[str]]:
         return [], []
 
     sheet, r, c = ws
-    evs = parse_events(sheet, electives_file, r, c, "faculty.json", "curriculum.json")
+    evs = parse_events(sheet, electives_file, r, c, faculty_json, "curriculum.json")
     batches = set()
     for ev in evs:
         if ev is not None:
@@ -142,7 +146,12 @@ def generate_json():
         "batches": {},
     }
     classes = {}
+    faculty_json=""
     for course_id, course in branches.items():
+        if course_id=="btech-128":
+            faculty_json= "faculty_128.json"
+        elif course_id=="btech-62":
+            faculty_json= "faculty_62.json"
         metadata["courses"].append({"id": course_id, "name": course})
         metadata["semesters"][course_id] = []
         metadata["batches"][course_id] = {}
@@ -160,7 +169,7 @@ def generate_json():
                 )
                 metadata["batches"][course_id][sem_id][phase_id] = []
                 excel_path = excels.get("_".join((course_id, sem_id, phase_id)))
-                evs, batches = get_events(excel_path)
+                evs, batches = get_events(excel_path,faculty_json)
                 print(batches)
                 for batch in batches:
                     batch_id = batch.lower()
