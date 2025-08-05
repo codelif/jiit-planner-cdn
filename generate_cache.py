@@ -150,7 +150,7 @@ def generate_json():
     for course_id, course in branches.items():
         if course_id=="btech-128":
             faculty_json= "faculty_128.json"
-        elif course_id=="btech-62":
+        elif course_id=="btech-62" or course_id=="bca-62":
             faculty_json= "faculty_62.json"
         metadata["courses"].append({"id": course_id, "name": course})
         metadata["semesters"][course_id] = []
