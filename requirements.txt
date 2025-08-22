@@ -1,0 +1,3 @@
+git+https://github.com/codelif/jiit-tt-parser
+icalendar
+camelot
