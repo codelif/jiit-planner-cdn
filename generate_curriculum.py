@@ -1,64 +1,8 @@
 from typing import Dict, List, Callable, Optional
-import camelot
-from camelot.core import TableList
 import json
 
 PATH = "./raw/electives/curriculum{year}.pdf"
 YEARS = [2018, 2024]
-ParserFunction = Optional[Callable[[TableList], List[List[str]]]]
-
-
-def parse_2018(tables: TableList) -> List[List[str]]:
-    all_years_electives: List[List[str]] = []
-    for table in tables:
-        sem_electives: List[str] = []
-        for r in range(1, len(table.rows) - 1):
-            cell = table.cells[r][2]
-            text = " ".join(cell.text.replace("\u2013", "-").strip(" \n").split())
-            if text:
-                sem_electives.append(text)
-        all_years_electives.append(sem_electives)
-    return all_years_electives
-
-
-def parse_2024(tables: TableList) -> List[List[str]]:
-    all_years_electives: List[List[str]] = []
-    for table in tables:
-        sem_electives: List[str] = []
-        for r in range(1, len(table.rows)):
-            cell1 = table.cells[r][2]
-            cell2 = table.cells[r][2]
-            text1 = " ".join(cell1.text.replace("\u2013", "-").strip(" \n").split())
-            text2 = " ".join(cell2.text.replace("\u2013", "-").strip(" \n").split())
-            text = text1 + " " + text2
-            if text:
-                sem_electives.append(text)
-        all_years_electives.append(sem_electives)
-    return all_years_electives
-
-
-def parse_electives() -> Dict[str, List[List[str]]]:
-    """
-    All year-wise parse function should be defined above this
-    The function name should be of the format parse_{year}
-    with the function signature of:
-    def parse_{year}(tables: TableList) -> List[List[str]]:
-
-    in all seriousness, it doesn't work, it doesn't need to.
-    for something that might change once in 5 years.  idc
-    ask an llm to format it
-    """
-    electives: Dict[str, List[List[str]]] = {}
-    for year in YEARS:
-        path = PATH.format(year=year)
-        tables: TableList = camelot.read_pdf(path, pages="all")[:8]
-        parse_year: ParserFunction = globals().get(f"parse_{year}")
-        if parse_year is not None:
-            electives.update({str(year): parse_year(tables)})
-        else:
-            print(f"function 'parse_{year}' does not exist.")
-    return electives
-
 
 def generate_electives() -> Dict[int, Dict[int, List[str]]]:
     return {
