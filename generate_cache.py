@@ -205,11 +205,12 @@ if __name__ == "__main__":
     # json.dump(metadata, sys.stdout)
     # json.dump(classes, sys.stdout)
 
-    # Generate iCalendar files
-    generate_icalendars_json("classes.json")
     # generate_icalendars(classes) use when classes data fixed
 
     with open("classes.json", "w+") as f:
         json.dump(classes, f)
     with open("metadata.json", "w+") as f:
         json.dump(metadata, f)
+
+    # Generate iCalendar files
+    generate_icalendars_json("classes.json")
