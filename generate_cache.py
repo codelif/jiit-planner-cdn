@@ -175,9 +175,6 @@ def get_electives(evs: List[Event | Elective], batches: List[str]) -> List[dict]
         data["teacher"] = ", ".join(ev.lecturer)
         data["day"] = ev.day.lower()
         
-        from pprint import pprint
-        pprint(ev.batch_cats)
-        pprint(batches)
         for bcat in ev.batch_cats:
             ev.batches = list(
                 set(ev.batches).union(get_prefix_batches(batches, bcat))
