@@ -1,6 +1,6 @@
 from jiit_tt_parser.parser import parse_events
 from jiit_tt_parser.utils import load_worksheet
-from jiit_tt_parser.parser.parse_events import Event
+from jiit_tt_parser.parser.parse_events import Elective, Event
 from jiit_tt_parser.parser.parse_faculty import (
     generate_faculty_map,
     get_faculty_map_from_sem1,
@@ -90,7 +90,10 @@ def get_curriculum_map():
     with open("curriculum.json", "w+") as f:
         json.dump(e, f)
 
-def get_events(branch_xl: str | None, faculty_json: str) -> tuple[List[Event], List[str]]:
+
+def get_events(
+    branch_xl: str | None, faculty_json: str
+) -> tuple[List[Event | Elective], List[str]]:
     if not branch_xl:
         return [], []
 
@@ -109,23 +112,26 @@ def get_events(branch_xl: str | None, faculty_json: str) -> tuple[List[Event], L
     return evs, sorted(batches, key=split_on_number)
 
 
-def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
+def filter_events(evs: List[Event | Elective], batch: str, day: str) -> List[dict]:
     filtered_evs = []
 
     for ev in evs:
         # print(ev)
         if ev is None:
             continue
-
+        if isinstance(ev, Elective):
+            continue
         if (batch is None) or (batch not in ev.batches):
             continue
 
         if (day is not None) and (not ev.day.lower() == day.lower()):
             continue
         data = {}
+        data["is_elective"] = False
         data["start"] = ev.period.start_time.strftime("%I:%M %p")
         data["end"] = ev.period.end_time.strftime("%I:%M %p")
 
+        data["day"] = ev.day.lower()
         data["subject"] = ev.event or ev.eventcode
         data["subjectcode"] = ev.eventcode
         data["teacher"] = ", ".join(ev.lecturer)
@@ -134,6 +140,71 @@ def filter_events(evs: List[Event], batch: str, day: str) -> List[dict]:
         data["type"] = ev.event_type
 
         filtered_evs.append(data)
+
+    return filtered_evs
+
+
+def get_prefix_batches(batches: List[str], prefix: str):
+    pbatches = []
+
+    for batch in batches:
+        if batch.startswith(prefix):
+            pbatches.append(batch)
+
+    return pbatches
+
+
+def get_electives(evs: List[Event | Elective], batches: List[str]) -> List[dict]:
+    filtered_evs = []
+
+    for ev in evs:
+        # print(ev)
+        if ev is None:
+            continue
+
+        if not isinstance(ev, Elective):
+            continue
+
+        data = {}
+        data["is_elective"] = True
+        data["start"] = ev.period.start_time.strftime("%I:%M %p")
+        data["end"] = ev.period.end_time.strftime("%I:%M %p")
+
+        data["subject"] = ev.event or ev.eventcode
+        data["subjectcode"] = ev.eventcode
+        data["teacher"] = ", ".join(ev.lecturer)
+        data["day"] = ev.day.lower()
+        
+        from pprint import pprint
+        pprint(ev.batch_cats)
+        pprint(batches)
+        for bcat in ev.batch_cats:
+            ev.batches = list(
+                set(ev.batches).union(get_prefix_batches(batches, bcat))
+            )
+
+        if len(ev.batches) == 0:
+            ev.batches = batches
+        data["batches"] = ev.batches
+        data["category"] = ev.category
+        data["venue"] = ev.classroom
+        data["type"] = ev.event_type
+
+        filtered_evs.append(data)
+
+    return filtered_evs
+
+
+def filter_electives(evs: List[dict], batch: str, day: str) -> List[dict]:
+    filtered_evs = []
+
+    for ev in evs:
+        if (day is not None) and (not ev["day"].lower() == day.lower()):
+            continue
+
+        if (batch is None) or (batch not in ev["batches"]):
+            continue
+        filtered_evs.append(ev)
 
     return filtered_evs
 
@@ -149,12 +220,12 @@ def generate_json():
         "batches": {},
     }
     classes = {}
-    faculty_json=""
+    faculty_json = ""
     for course_id, course in branches.items():
-        if course_id=="btech-128":
-            faculty_json= "faculty_128.json"
-        elif course_id=="btech-62" or course_id=="bca-62":
-            faculty_json= "faculty_62.json"
+        if course_id == "btech-128":
+            faculty_json = "faculty_128.json"
+        elif course_id == "btech-62" or course_id == "bca-62":
+            faculty_json = "faculty_62.json"
         metadata["courses"].append({"id": course_id, "name": course})
         metadata["semesters"][course_id] = []
         metadata["batches"][course_id] = {}
@@ -172,8 +243,13 @@ def generate_json():
                 )
                 metadata["batches"][course_id][sem_id][phase_id] = []
                 excel_path = excels.get("_".join((course_id, sem_id, phase_id)))
-                evs, batches = get_events(excel_path,faculty_json)
+                evs, batches = get_events(excel_path, faculty_json)
                 print(batches)
+                electives = get_electives(evs, batches)
+                elective_key = "_".join((course_id, sem_id, phase_id))
+                classes["electives"] = {}
+                classes["electives"][elective_key] = electives
+
                 for batch in batches:
                     batch_id = batch.lower()
                     metadata["batches"][course_id][sem_id][phase_id].append(
@@ -196,13 +272,16 @@ def generate_json():
                         classes[class_batch_key]["classes"][day] = filter_events(
                             evs, batch, day
                         )
+                        classes[class_batch_key]["classes"][day].extend(
+                            filter_electives(electives, batch, day)
+                        )
 
     return metadata, classes
 
 
 if __name__ == "__main__":
     get_faculty_map()
-    
+
     metadata, classes = generate_json()
     # import sys
     # json.dump(metadata, sys.stdout)

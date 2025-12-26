@@ -5,6 +5,8 @@ from operator import attrgetter
 PDF   = (
     "https://www.jiit.ac.in/sites/default/files/B.TECH_.%20I%20Sem%20Odd%202025%20Wish%20Town.pdf"
 )
+
+PDF = "./B.TECH. I Yr(II SEMESTER) TIMETABLE EVEN SEMESTER 2026, JIIT-128.pdf"
 PAGES = "all"
 
 tables = camelot.read_pdf(
