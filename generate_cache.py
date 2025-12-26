@@ -48,6 +48,9 @@ def maps():
 
                 if not path.endswith((".xls", ".xlsx")):
                     continue
+                if tt.startswith("."):
+                    continue
+
                 phase = tt.split(".")[0]
                 phases[branch_code][sem].append(phase)
                 paths[f"{branch_code}_sem{sem}_phase{phase}"] = path
