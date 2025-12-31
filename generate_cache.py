@@ -216,7 +216,9 @@ def generate_json():
         "phases": {},
         "batches": {},
     }
-    classes = {}
+    classes = {
+        "electives": {},
+    }
     faculty_json = ""
     for course_id, course in branches.items():
         if course_id == "btech-128":
@@ -244,7 +246,6 @@ def generate_json():
                 print(batches)
                 electives = get_electives(evs, batches)
                 elective_key = "_".join((course_id, sem_id, phase_id))
-                classes["electives"] = {}
                 classes["electives"][elective_key] = electives
 
                 for batch in batches:
