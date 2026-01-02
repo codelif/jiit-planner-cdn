@@ -1,17 +1,16 @@
-from jiit_tt_parser.parser import parse_events
-from jiit_tt_parser.utils import load_worksheet
-from jiit_tt_parser.parser.parse_events import Elective, Event
-from jiit_tt_parser.parser.parse_faculty import (
-    generate_faculty_map,
-    get_faculty_map_from_sem1,
-    get_faculty_map_from_bca1_N_128,
-)
-import json
 import datetime
+import json
 import os
 from typing import Dict, List
-from generate_icalendar import generate_icalendars_json
+
 from generate_curriculum import curriculum
+from generate_icalendar import generate_icalendars_json
+from jiit_tt_parser.parser import parse_events
+from jiit_tt_parser.parser.parse_events import Elective, Event
+from jiit_tt_parser.parser.parse_faculty import (
+    generate_faculty_map, get_faculty_map_from_128_sem4,
+    get_faculty_map_from_bca1_N_128, get_faculty_map_from_sem1)
+from jiit_tt_parser.utils import load_worksheet
 
 TIME_TABLE = os.path.join("raw", "time_tables")
 FACULTY = os.path.join("raw", "faculty")
@@ -68,16 +67,20 @@ def split_on_number(key: str):
 
 def get_faculty_map():
     fac1_xl_path = "./raw/faculty/10. Faculty Abbreviations_Even 2025.xlsx"
+    fac2_xl_path = "./raw/faculty/Faculty Abbreviations EVEN 2026.xlsx"
     sem1_xl_path = "./raw/faculty/1. BTech II Sem _Even 2025.xlsx"
     bca1_xl_path = "./raw/faculty/6. BCA II Sem and IV Sem_Even 2025.xlsx"
     fac128_xl_path = "./raw/faculty/1.xlsx"
+    fac128_xl_path_2 = "./raw/faculty/1 (copy 1).xlsx"
 
     faculty_map_62 = {}
     faculty_map_128 = {}
     faculty_map_62.update(generate_faculty_map(fac1_xl_path))
+    faculty_map_62.update(generate_faculty_map(fac2_xl_path))
     faculty_map_62.update(get_faculty_map_from_sem1(sem1_xl_path))
     faculty_map_62.update(get_faculty_map_from_bca1_N_128(bca1_xl_path))
     faculty_map_128.update(get_faculty_map_from_bca1_N_128(fac128_xl_path))
+    faculty_map_128.update(get_faculty_map_from_128_sem4(fac128_xl_path_2))
 
     with open("faculty_62.json", "w+") as f:
         json.dump(faculty_map_62, f)
@@ -174,11 +177,9 @@ def get_electives(evs: List[Event | Elective], batches: List[str]) -> List[dict]
         data["subjectcode"] = ev.eventcode
         data["teacher"] = ", ".join(ev.lecturer)
         data["day"] = ev.day.lower()
-        
+
         for bcat in ev.batch_cats:
-            ev.batches = list(
-                set(ev.batches).union(get_prefix_batches(batches, bcat))
-            )
+            ev.batches = list(set(ev.batches).union(get_prefix_batches(batches, bcat)))
 
         if len(ev.batches) == 0:
             ev.batches = batches
