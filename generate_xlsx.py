@@ -1,12 +1,13 @@
+from operator import attrgetter
+
 import camelot
 from openpyxl import Workbook
-from operator import attrgetter
 
 PDF   = (
     "https://www.jiit.ac.in/sites/default/files/B.TECH_.%20I%20Sem%20Odd%202025%20Wish%20Town.pdf"
 )
 
-PDF = "./B.TECH. I Yr(II SEMESTER) TIMETABLE EVEN SEMESTER 2026, JIIT-128.pdf"
+PDF = "./raw/time_tables/B.Tech 128 (btech-128)/4/1.pdf"
 PAGES = "all"
 
 tables = camelot.read_pdf(
