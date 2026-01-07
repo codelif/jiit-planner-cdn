@@ -8,7 +8,7 @@ BEGIN:VTIMEZONE
 TZID:Asia/Kolkata
 X-LIC-LOCATION:Asia/Kolkata
 BEGIN:STANDARD
-DTSTART:20260107T113408
+DTSTART:20260107T122656
 TZNAME:IST
 TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
@@ -18,7 +18,7 @@ BEGIN:VEVENT
 SUMMARY:Digital Systems and Computer Organisation (25B11EC311)
 DTSTART;TZID=Asia/Kolkata:20260112T110000
 DTEND;TZID=Asia/Kolkata:20260112T115000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_11:00 AM_25B11EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Digital Systems and Computer Organisation\nSubject Co
@@ -30,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:Environmental Studies (19B13BT211)
 DTSTART;TZID=Asia/Kolkata:20260112T140000
 DTEND;TZID=Asia/Kolkata:20260112T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_02:00 PM_19B13BT211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Environmental Studies\nSubject Code: 19B13BT211\nTeac
@@ -42,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:Artificial Intelligence and Machine Learning (CS222)
 DTSTART;TZID=Asia/Kolkata:20260112T150000
 DTEND;TZID=Asia/Kolkata:20260112T165000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_03:00 PM_CS222
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Artificial Intelligence and Machine Learning\nSubject
@@ -55,14 +55,12 @@ BEGIN:VEVENT
 SUMMARY:Principles of Management (HS434)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS434
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Principles of Management\nSubject Code: HS434\nTeache
- r: Dr. Shikha Kumari\nVenue: G3\nType: L\nBatches: B15\, B13\, B11\, A9\, 
- C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\,
-  A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\,
-  A8
+ r: Dr. Shikha Kumari\nVenue: G3\nType: L\nBatches: B1\, B2\, B3\, B4\, B5\
+ , B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\, B16
 LOCATION:G3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -70,59 +68,28 @@ BEGIN:VEVENT
 SUMMARY:Quantitative Methods for Social Sciences (HS332)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS332
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Quantitative Methods for Social Sciences\nSubject Cod
- e: HS332\nTeacher: Dr Priya\nVenue: G6\nType: L\nBatches: B15\, B13\, B11\
- , A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1
- \, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4
- \, A2\, A8
+ e: HS332\nTeacher: Dr Priya\nVenue: G6\nType: L\nBatches: A2\, A3\, A4\, B
+ 14\, B11\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, 
+ A8\, B16\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\
+ , B8\, A10
 LOCATION:G6
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Quantitative Methods for Social Sciences (HS332)
-DTSTART;TZID=Asia/Kolkata:20260112T100000
-DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS332
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Quantitative Methods for Social Sciences\nSubject Cod
- e: HS332\nTeacher: Dr. Amandeep\nVenue: FF6\nType: L\nBatches: B15\, B13\,
-  B11\, A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10
- \, A1\, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9
- \, A4\, A2\, A8
-LOCATION:FF6
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Introduction to Literature (HS431)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS431
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Literature\nSubject Code: HS431\nTeac
- her: Dr.Monali Bhattacharya\nVenue: LT3\nType: L\nBatches: B15\, B13\, B11
- \, A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A
- 1\, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A
- 4\, A2\, A8
-LOCATION:LT3
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Introduction to Literature (HS431)
-DTSTART;TZID=Asia/Kolkata:20260112T100000
-DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS431
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Introduction to Literature\nSubject Code: HS431\nTeac
- her: Dr. Paridhi Choudhary\nVenue: G7\nType: L\nBatches: B15\, B13\, B11\,
-  A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\
- , B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\
- , A2\, A8
+ her: Dr. Paridhi Choudhary\nVenue: G7\nType: L\nBatches: A17\, A18\, B1\, 
+ B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\
+ , B16\, C1\, C2\, C3
 LOCATION:G7
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -130,14 +97,14 @@ BEGIN:VEVENT
 SUMMARY:Financial Accounting (HS435)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS435
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Financial Accounting\nSubject Code: HS435\nTeacher: D
- r. Purwa Shriwastava\nVenue: G8\nType: L\nBatches: B15\, B13\, B11\, A9\, 
- C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\,
-  A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\,
-  A8
+ r. Purwa Shriwastava\nVenue: G8\nType: L\nBatches: A2\, A3\, A4\, B14\, B1
+ 1\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B1
+ 6\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, 
+ A10
 LOCATION:G8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -145,13 +112,13 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Sociology (HS433)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS433
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Sociology\nSubject Code: HS433\nTeach
- er: Dr. Suraj Das\nVenue: G9\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\
- , B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A1
- 6\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ er: Dr. Suraj Das\nVenue: G9\nType: L\nBatches: A2\, A3\, A4\, B14\, B11\,
+  B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B16\,
+  C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, A10
 LOCATION:G9
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -159,13 +126,13 @@ BEGIN:VEVENT
 SUMMARY:Industrial Economics (HS412)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS412
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Industrial Economics\nSubject Code: HS412\nTeacher: D
- r Neha Singh\nVenue: FF5\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B5
- \, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\, 
- A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ r Neha Singh\nVenue: FF5\nType: L\nBatches: A2\, A3\, A4\, B14\, B11\, B3\
+ , B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B16\, C2\
+ , A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, A10
 LOCATION:FF5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -173,27 +140,12 @@ BEGIN:VEVENT
 SUMMARY:Science of Happiness (HS212)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Science of Happiness\nSubject Code: HS212\nTeacher: D
- r. Badri Bajaj\nVenue: FF8\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, 
- B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\
- , A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
-LOCATION:FF8
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Science of Happiness (HS212)
-DTSTART;TZID=Asia/Kolkata:20260112T100000
-DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS212
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Science of Happiness\nSubject Code: HS212\nTeacher: D
- r. Ekta Singh\nVenue: FF9\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B
- 5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\,
-  A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ r. Ekta Singh\nVenue: FF9\nType: L\nBatches: B1\, B2\, B3\, B4\, B5\, B6\,
+  B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\, B16
 LOCATION:FF9
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -201,13 +153,13 @@ BEGIN:VEVENT
 SUMMARY:Sociology of Work (HS213)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS213
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Sociology of Work\nSubject Code: HS213\nTeacher: Dr Y
- ogita Naruka\nVenue: G4\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B5\
- , A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\, A
- 5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ ogita Naruka\nVenue: G4\nType: L\nBatches: A2\, A3\, A4\, B14\, B11\, B3\,
+  B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B16\, C2\,
+  A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, A10
 LOCATION:G4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -215,14 +167,14 @@ BEGIN:VEVENT
 SUMMARY:Media\, Culture and Society (24HS211)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_24HS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Media\, Culture and Society\nSubject Code: 24HS211\nT
- eacher: Dr. Nibha Sinha\nVenue: F8\nType: L\nBatches: B15\, B13\, B11\, A9
- \, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B
- 1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A
- 2\, A8
+ eacher: Dr. Nibha Sinha\nVenue: F8\nType: L\nBatches: A2\, A3\, A4\, B14\,
+  B11\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\,
+  B16\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8
+ \, A10
 LOCATION:F8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -230,14 +182,14 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Neoliberalism (HS211)
 DTSTART;TZID=Asia/Kolkata:20260112T100000
 DTEND;TZID=Asia/Kolkata:20260112T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_10:00 AM_HS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Neoliberalism\nSubject Code: HS211\nT
- eacher: Dr. Namreeta Kumari\nVenue: CR526\nType: L\nBatches: B15\, B13\, B
- 11\, A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\,
-  A1\, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\,
-  A4\, A2\, A8
+ eacher: Dr. Namreeta Kumari\nVenue: CR526\nType: L\nBatches: A2\, A3\, A4\
+ , B14\, B11\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1
+ \, A8\, B16\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, 
+ A5\, B8\, A10
 LOCATION:CR526
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -245,7 +197,7 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Data Analytics (CS211)
 DTSTART;TZID=Asia/Kolkata:20260112T120000
 DTEND;TZID=Asia/Kolkata:20260112T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_12:00 PM_CS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Data Analytics\nSubject Code: CS211\n
@@ -257,13 +209,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Mobile Application Development (CS212)
 DTSTART;TZID=Asia/Kolkata:20260112T120000
 DTEND;TZID=Asia/Kolkata:20260112T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_12:00 PM_CS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Mobile Application Development\nSubje
- ct Code: CS212\nTeacher: Mr. Shobit\nVenue: G2\nType: L\nBatches: B1\, B15
- \, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, 
- B9
+ ct Code: CS212\nTeacher: Mr. Shobit\nVenue: G2\nType: L\nBatches: B16\, B6
+ \, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B
+ 13
 LOCATION:G2
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -271,12 +223,12 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Smart Systems and IoT (CS213)
 DTSTART;TZID=Asia/Kolkata:20260112T120000
 DTEND;TZID=Asia/Kolkata:20260112T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_12:00 PM_CS213
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Smart Systems and IoT\nSubject Code: 
- CS213\nTeacher: Dr Hemant Kumar\nVenue: G5\nType: L\nBatches: B1\, B15\, B
- 13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, B9
+ CS213\nTeacher: Dr. Hema N\nVenue: G5\nType: L\nBatches: B16\, B6\, B14\, 
+ B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B13
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -284,7 +236,7 @@ BEGIN:VEVENT
 SUMMARY:24B15CS245 (24B15CS245)
 DTSTART;TZID=Asia/Kolkata:20260112T130000
 DTEND;TZID=Asia/Kolkata:20260112T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_01:00 PM_24B15CS245
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B15CS245\nSubject Code: 24B15CS245\nTeacher: Mr. Me
@@ -299,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:24B15CS244 (24B15CS244)
 DTSTART;TZID=Asia/Kolkata:20260112T130000
 DTEND;TZID=Asia/Kolkata:20260112T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Monday_01:00 PM_24B15CS244
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B15CS244\nSubject Code: 24B15CS244\nTeacher: Mr. Ay
@@ -314,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:Software Engineering (CS223)
 DTSTART;TZID=Asia/Kolkata:20260113T090000
 DTEND;TZID=Asia/Kolkata:20260113T095000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_09:00 AM_CS223
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Software Engineering\nSubject Code: CS223\nTeacher: D
@@ -326,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:Design and Analysis of Algorithms (CS221)
 DTSTART;TZID=Asia/Kolkata:20260113T100000
 DTEND;TZID=Asia/Kolkata:20260113T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_10:00 AM_CS221
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design and Analysis of Algorithms\nSubject Code: CS22
@@ -338,7 +290,7 @@ BEGIN:VEVENT
 SUMMARY:Environmental Studies (19B13BT211)
 DTSTART;TZID=Asia/Kolkata:20260113T110000
 DTEND;TZID=Asia/Kolkata:20260113T115000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_11:00 AM_19B13BT211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Environmental Studies\nSubject Code: 19B13BT211\nTeac
@@ -350,7 +302,7 @@ BEGIN:VEVENT
 SUMMARY:Design and Analysis of Algorithms (CS221)
 DTSTART;TZID=Asia/Kolkata:20260113T150000
 DTEND;TZID=Asia/Kolkata:20260113T155000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_03:00 PM_CS221
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design and Analysis of Algorithms\nSubject Code: CS22
@@ -362,7 +314,7 @@ BEGIN:VEVENT
 SUMMARY:Digital Systems and Computer Organisation (25B11EC311)
 DTSTART;TZID=Asia/Kolkata:20260113T160000
 DTEND;TZID=Asia/Kolkata:20260113T165000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_04:00 PM_25B11EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Digital Systems and Computer Organisation\nSubject Co
@@ -374,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Data Analytics (CS211)
 DTSTART;TZID=Asia/Kolkata:20260113T120000
 DTEND;TZID=Asia/Kolkata:20260113T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_12:00 PM_CS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Data Analytics\nSubject Code: CS211\n
@@ -386,13 +338,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Mobile Application Development (CS212)
 DTSTART;TZID=Asia/Kolkata:20260113T120000
 DTEND;TZID=Asia/Kolkata:20260113T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_12:00 PM_CS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Mobile Application Development\nSubje
- ct Code: CS212\nTeacher: Mr. Shobit\nVenue: G4\nType: L\nBatches: B1\, B15
- \, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, 
- B9
+ ct Code: CS212\nTeacher: Mr. Shobit\nVenue: G4\nType: L\nBatches: B16\, B6
+ \, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B
+ 13
 LOCATION:G4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -400,12 +352,12 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Smart Systems and IoT (CS213)
 DTSTART;TZID=Asia/Kolkata:20260113T120000
 DTEND;TZID=Asia/Kolkata:20260113T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_12:00 PM_CS213
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Smart Systems and IoT\nSubject Code: 
- CS213\nTeacher: Dr Hemant Kumar\nVenue: G5\nType: L\nBatches: B1\, B15\, B
- 13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, B9
+ CS213\nTeacher: Dr. Hema N\nVenue: G5\nType: L\nBatches: B16\, B6\, B14\, 
+ B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B13
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -413,7 +365,7 @@ BEGIN:VEVENT
 SUMMARY:24B12PH211 (24B12PH211)
 DTSTART;TZID=Asia/Kolkata:20260113T130000
 DTEND;TZID=Asia/Kolkata:20260113T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_01:00 PM_24B12PH211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B12PH211\nSubject Code: 24B12PH211\nTeacher: Dr. Sh
@@ -429,13 +381,13 @@ SUMMARY:Artificial Intelligence and Machine Learning: Theory & Practice (C
  S242)
 DTSTART;TZID=Asia/Kolkata:20260113T130000
 DTEND;TZID=Asia/Kolkata:20260113T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_01:00 PM_CS242
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Artificial Intelligence and Machine Learning: Theory 
  & Practice\nSubject Code: CS242\nTeacher: Mr. Ayush Sahoo\nVenue: G3\nType
- : L\nBatches: B1\, B15\, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, 
- B2\, B6\, B14\, B12\, B9
+ : L\nBatches: B16\, B6\, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\,
+  B4\, B1\, B8\, B2\, B13
 LOCATION:G3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -443,13 +395,13 @@ BEGIN:VEVENT
 SUMMARY:Data Science & Data Analytics: Theory & Practice (CS243)
 DTSTART;TZID=Asia/Kolkata:20260113T130000
 DTEND;TZID=Asia/Kolkata:20260113T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_01:00 PM_CS243
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Data Science & Data Analytics: Theory & Practice\nSub
- ject Code: CS243\nTeacher: Neetu Singh\nVenue: G6\nType: L\nBatches: B1\, 
- B15\, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12
- \, B9
+ ject Code: CS243\nTeacher: Neetu Singh\nVenue: G6\nType: L\nBatches: B16\,
+  B6\, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\
+ , B13
 LOCATION:G6
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -457,7 +409,7 @@ BEGIN:VEVENT
 SUMMARY:24B12PH211 (24B12PH211)
 DTSTART;TZID=Asia/Kolkata:20260113T130000
 DTEND;TZID=Asia/Kolkata:20260113T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_01:00 PM_24B12PH211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B12PH211\nSubject Code: 24B12PH211\nTeacher: Dr. Sh
@@ -472,7 +424,7 @@ BEGIN:VEVENT
 SUMMARY:24B15CS245 (24B15CS245)
 DTSTART;TZID=Asia/Kolkata:20260113T130000
 DTEND;TZID=Asia/Kolkata:20260113T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_01:00 PM_24B15CS245
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B15CS245\nSubject Code: 24B15CS245\nTeacher: Mr. Me
@@ -487,7 +439,7 @@ BEGIN:VEVENT
 SUMMARY:24B15CS244 (24B15CS244)
 DTSTART;TZID=Asia/Kolkata:20260113T130000
 DTEND;TZID=Asia/Kolkata:20260113T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_01:00 PM_24B15CS244
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B15CS244\nSubject Code: 24B15CS244\nTeacher: Mr. Ay
@@ -502,14 +454,12 @@ BEGIN:VEVENT
 SUMMARY:Principles of Management (HS434)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS434
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Principles of Management\nSubject Code: HS434\nTeache
- r: Dr. Shikha Kumari\nVenue: FF5\nType: L\nBatches: B15\, B13\, B11\, A9\,
-  C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\
- , A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\
- , A8
+ r: Dr. Shikha Kumari\nVenue: FF5\nType: L\nBatches: B1\, B2\, B3\, B4\, B5
+ \, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\, B16
 LOCATION:FF5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -517,59 +467,28 @@ BEGIN:VEVENT
 SUMMARY:Quantitative Methods for Social Sciences (HS332)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS332
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Quantitative Methods for Social Sciences\nSubject Cod
- e: HS332\nTeacher: Dr Priya\nVenue: G3\nType: L\nBatches: B15\, B13\, B11\
- , A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1
- \, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4
- \, A2\, A8
+ e: HS332\nTeacher: Dr Priya\nVenue: G3\nType: L\nBatches: A2\, A3\, A4\, B
+ 14\, B11\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, 
+ A8\, B16\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\
+ , B8\, A10
 LOCATION:G3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Quantitative Methods for Social Sciences (HS332)
-DTSTART;TZID=Asia/Kolkata:20260113T140000
-DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS332
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Quantitative Methods for Social Sciences\nSubject Cod
- e: HS332\nTeacher: Dr. Amandeep\nVenue: FF6\nType: L\nBatches: B15\, B13\,
-  B11\, A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10
- \, A1\, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9
- \, A4\, A2\, A8
-LOCATION:FF6
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Introduction to Literature (HS431)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS431
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Literature\nSubject Code: HS431\nTeac
- her: Dr.Monali Bhattacharya\nVenue: FF7\nType: L\nBatches: B15\, B13\, B11
- \, A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A
- 1\, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A
- 4\, A2\, A8
-LOCATION:FF7
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Introduction to Literature (HS431)
-DTSTART;TZID=Asia/Kolkata:20260113T140000
-DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS431
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Introduction to Literature\nSubject Code: HS431\nTeac
- her: Dr. Paridhi Choudhary\nVenue: G4\nType: L\nBatches: B15\, B13\, B11\,
-  A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\
- , B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\
- , A2\, A8
+ her: Dr. Paridhi Choudhary\nVenue: G4\nType: L\nBatches: A17\, A18\, B1\, 
+ B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\
+ , B16\, C1\, C2\, C3
 LOCATION:G4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -577,14 +496,14 @@ BEGIN:VEVENT
 SUMMARY:Financial Accounting (HS435)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS435
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Financial Accounting\nSubject Code: HS435\nTeacher: D
- r. Purwa Shriwastava\nVenue: G6\nType: L\nBatches: B15\, B13\, B11\, A9\, 
- C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\,
-  A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\,
-  A8
+ r. Purwa Shriwastava\nVenue: G6\nType: L\nBatches: A2\, A3\, A4\, B14\, B1
+ 1\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B1
+ 6\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, 
+ A10
 LOCATION:G6
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -592,13 +511,13 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Sociology (HS433)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS433
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Sociology\nSubject Code: HS433\nTeach
- er: Dr. Suraj Das\nVenue: G7\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\
- , B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A1
- 6\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ er: Dr. Suraj Das\nVenue: G7\nType: L\nBatches: A2\, A3\, A4\, B14\, B11\,
+  B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B16\,
+  C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, A10
 LOCATION:G7
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -606,14 +525,14 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Neoliberalism (HS211)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Neoliberalism\nSubject Code: HS211\nT
- eacher: Dr. Namreeta Kumari\nVenue: G8\nType: L\nBatches: B15\, B13\, B11\
- , A9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1
- \, B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4
- \, A2\, A8
+ eacher: Dr. Namreeta Kumari\nVenue: G8\nType: L\nBatches: A2\, A3\, A4\, B
+ 14\, B11\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, 
+ A8\, B16\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\
+ , B8\, A10
 LOCATION:G8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -621,27 +540,12 @@ BEGIN:VEVENT
 SUMMARY:Science of Happiness (HS212)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Science of Happiness\nSubject Code: HS212\nTeacher: D
- r. Badri Bajaj\nVenue: G9\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B
- 5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\,
-  A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
-LOCATION:G9
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Science of Happiness (HS212)
-DTSTART;TZID=Asia/Kolkata:20260113T140000
-DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS212
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Science of Happiness\nSubject Code: HS212\nTeacher: D
- r. Ekta Singh\nVenue: FF8\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B
- 5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\,
-  A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ r. Ekta Singh\nVenue: FF8\nType: L\nBatches: B1\, B2\, B3\, B4\, B5\, B6\,
+  B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\, B16
 LOCATION:FF8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -649,14 +553,14 @@ BEGIN:VEVENT
 SUMMARY:Media\, Culture and Society (24HS211)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_24HS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Media\, Culture and Society\nSubject Code: 24HS211\nT
- eacher: Dr. Nibha Sinha\nVenue: FF9\nType: L\nBatches: B15\, B13\, B11\, A
- 9\, C1\, B5\, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, 
- B1\, A16\, A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, 
- A2\, A8
+ eacher: Dr. Nibha Sinha\nVenue: FF9\nType: L\nBatches: A2\, A3\, A4\, B14\
+ , B11\, B3\, B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\
+ , B16\, C2\, A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B
+ 8\, A10
 LOCATION:FF9
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -664,13 +568,13 @@ BEGIN:VEVENT
 SUMMARY:Industrial Economics (HS412)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS412
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Industrial Economics\nSubject Code: HS412\nTeacher: D
- r Neha Singh\nVenue: F8\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B5\
- , A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\, A
- 5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ r Neha Singh\nVenue: F8\nType: L\nBatches: A2\, A3\, A4\, B14\, B11\, B3\,
+  B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B16\, C2\,
+  A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, A10
 LOCATION:F8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -678,13 +582,13 @@ BEGIN:VEVENT
 SUMMARY:Sociology of Work (HS213)
 DTSTART;TZID=Asia/Kolkata:20260113T140000
 DTEND;TZID=Asia/Kolkata:20260113T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Tuesday_02:00 PM_HS213
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Sociology of Work\nSubject Code: HS213\nTeacher: Dr Y
- ogita Naruka\nVenue: LT3\nType: L\nBatches: B15\, B13\, B11\, A9\, C1\, B5
- \, A15\, B8\, B3\, C3\, C2\, A17\, A18\, B14\, A6\, A10\, A1\, B1\, A16\, 
- A5\, B16\, B10\, A3\, B7\, A7\, B4\, B2\, B6\, B12\, B9\, A4\, A2\, A8
+ ogita Naruka\nVenue: LT3\nType: L\nBatches: A2\, A3\, A4\, B14\, B11\, B3\
+ , B12\, A16\, C3\, B5\, B7\, B2\, A9\, A6\, C1\, B13\, A1\, A8\, B16\, C2\
+ , A7\, B6\, B15\, A17\, B1\, B10\, B9\, A18\, A15\, B4\, A5\, B8\, A10
 LOCATION:LT3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -692,7 +596,7 @@ BEGIN:VEVENT
 SUMMARY:Design and Analysis of Algorithms (CS221)
 DTSTART;TZID=Asia/Kolkata:20260114T100000
 DTEND;TZID=Asia/Kolkata:20260114T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Wednesday_10:00 AM_CS221
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design and Analysis of Algorithms\nSubject Code: CS22
@@ -704,7 +608,7 @@ BEGIN:VEVENT
 SUMMARY:Digital Systems and Computer Organisation (25B15EC311)
 DTSTART;TZID=Asia/Kolkata:20260114T150000
 DTEND;TZID=Asia/Kolkata:20260114T165000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Wednesday_03:00 PM_25B15EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Digital Systems and Computer Organisation\nSubject Co
@@ -717,7 +621,7 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Data Analytics (25B16CS211)
 DTSTART;TZID=Asia/Kolkata:20260114T110000
 DTEND;TZID=Asia/Kolkata:20260114T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Wednesday_11:00 AM_25B16CS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Data Analytics\nSubject Code: 25B16CS
@@ -731,7 +635,7 @@ BEGIN:VEVENT
 SUMMARY:Artificial Intelligence and Machine Learning (CS222)
 DTSTART;TZID=Asia/Kolkata:20260108T090000
 DTEND;TZID=Asia/Kolkata:20260108T095000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_09:00 AM_CS222
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Artificial Intelligence and Machine Learning\nSubject
@@ -744,7 +648,7 @@ BEGIN:VEVENT
 SUMMARY:Digital Systems and Computer Organisation (25B11EC311)
 DTSTART;TZID=Asia/Kolkata:20260108T100000
 DTEND;TZID=Asia/Kolkata:20260108T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_10:00 AM_25B11EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Digital Systems and Computer Organisation\nSubject Co
@@ -756,19 +660,20 @@ BEGIN:VEVENT
 SUMMARY:Competitive Programming Lab (CS224)
 DTSTART;TZID=Asia/Kolkata:20260108T110000
 DTEND;TZID=Asia/Kolkata:20260108T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_11:00 AM_CS224
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Competitive Programming Lab\nSubject Code: CS224\nTea
- cher: Deepika Varshney\, Alka Singhal\nVenue: CL10\nType: P\nBatches: B3
-LOCATION:CL10
+ cher: Deepika Varshney\, Alka Singhal\, Silki Kharaliya\nVenue: CL09/CL10\
+ nType: P\nBatches: B3\, B4
+LOCATION:CL09/CL10
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Design and Analysis of Algorithms (CS221)
 DTSTART;TZID=Asia/Kolkata:20260108T150000
 DTEND;TZID=Asia/Kolkata:20260108T155000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_03:00 PM_CS221
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design and Analysis of Algorithms\nSubject Code: CS22
@@ -780,7 +685,7 @@ BEGIN:VEVENT
 SUMMARY:Software Engineering (CS223)
 DTSTART;TZID=Asia/Kolkata:20260108T160000
 DTEND;TZID=Asia/Kolkata:20260108T165000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_04:00 PM_CS223
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Software Engineering\nSubject Code: CS223\nTeacher: D
@@ -793,13 +698,13 @@ SUMMARY:Artificial Intelligence and Machine Learning: Theory & Practice (C
  S242)
 DTSTART;TZID=Asia/Kolkata:20260108T130000
 DTEND;TZID=Asia/Kolkata:20260108T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_01:00 PM_CS242
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Artificial Intelligence and Machine Learning: Theory 
  & Practice\nSubject Code: CS242\nTeacher: Mr. Ayush Sahoo\nVenue: G3\nType
- : L\nBatches: B1\, B15\, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, 
- B2\, B6\, B14\, B12\, B9
+ : L\nBatches: B16\, B6\, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\,
+  B4\, B1\, B8\, B2\, B13
 LOCATION:G3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -807,13 +712,13 @@ BEGIN:VEVENT
 SUMMARY:Data Science & Data Analytics: Theory & Practice (CS243)
 DTSTART;TZID=Asia/Kolkata:20260108T130000
 DTEND;TZID=Asia/Kolkata:20260108T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_01:00 PM_CS243
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Data Science & Data Analytics: Theory & Practice\nSub
- ject Code: CS243\nTeacher: Neetu Singh\nVenue: FF8\nType: L\nBatches: B1\,
-  B15\, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B1
- 2\, B9
+ ject Code: CS243\nTeacher: Neetu Singh\nVenue: FF8\nType: L\nBatches: B16\
+ , B6\, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2
+ \, B13
 LOCATION:FF8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -821,7 +726,7 @@ BEGIN:VEVENT
 SUMMARY:24B12PH211 (24B12PH211)
 DTSTART;TZID=Asia/Kolkata:20260108T130000
 DTEND;TZID=Asia/Kolkata:20260108T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_01:00 PM_24B12PH211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B12PH211\nSubject Code: 24B12PH211\nTeacher: Dr. Sh
@@ -836,7 +741,7 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Literature (HS431)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS431
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Literature\nSubject Code: HS431\nTeac
@@ -849,7 +754,7 @@ BEGIN:VEVENT
 SUMMARY:Science of Happiness (HS212)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Science of Happiness\nSubject Code: HS212\nTeacher: D
@@ -861,7 +766,7 @@ BEGIN:VEVENT
 SUMMARY:Quantitative Methods for Social Sciences (HS332)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS332
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Quantitative Methods for Social Sciences\nSubject Cod
@@ -874,12 +779,12 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Sociology (HS433)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS433
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Sociology\nSubject Code: HS433\nTeach
- er: Dr. Suraj Das\nVenue: TR307\nType: T\nBatches: B1\, B15\, B13\, B11\, 
- B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, B9
+ er: Dr. Suraj Das\nVenue: TR307\nType: T\nBatches: B16\, B6\, B14\, B15\, 
+ B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B13
 LOCATION:TR307
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -887,7 +792,7 @@ BEGIN:VEVENT
 SUMMARY:Financial Accounting (HS435)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS435
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Financial Accounting\nSubject Code: HS435\nTeacher: D
@@ -900,13 +805,13 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Neoliberalism (HS211)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Introduction to Neoliberalism\nSubject Code: HS211\nT
- eacher: Dr. Namreeta Kumari\nVenue: FF6\nType: T\nBatches: B15\, B13\, B11
- \, B5\, B8\, B3\, G1\, B14\, B1\, B16\, B10\, G2\, B4\, B7\, B2\, B6\, B12
- \, B9
+ eacher: Dr. Namreeta Kumari\nVenue: FF6\nType: T\nBatches: B14\, G1\, B11\
+ , B3\, B12\, B5\, B7\, B2\, B13\, B16\, B6\, G2\, B15\, B10\, B9\, B4\, B1
+ \, B8
 LOCATION:FF6
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -914,13 +819,13 @@ BEGIN:VEVENT
 SUMMARY:Media\, Culture and Society (24HS211)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_24HS211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Media\, Culture and Society\nSubject Code: 24HS211\nT
- eacher: Dr. Nibha Sinha\nVenue: FF7\nType: T\nBatches: B15\, B13\, C1\, B1
- 1\, C3\, B5\, B8\, B3\, C2\, G1\, B14\, B1\, B16\, B10\, G2\, B7\, B4\, B2
- \, B6\, B12\, B9
+ eacher: Dr. Nibha Sinha\nVenue: FF7\nType: T\nBatches: B14\, G1\, B11\, B1
+ 2\, C3\, B5\, B7\, B2\, C1\, B13\, C2\, B16\, B6\, G2\, B15\, B4\, B10\, B
+ 9\, B3\, B1\, B8
 LOCATION:FF7
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -928,12 +833,12 @@ BEGIN:VEVENT
 SUMMARY:Industrial Economics (HS412)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS412
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Industrial Economics\nSubject Code: HS412\nTeacher: D
- r Neha Singh\nVenue: FF8\nType: T\nBatches: B15\, B13\, B11\, C1\, C3\, B5
- \, B8\, B3\, C2\, B14\, B1\, B16\, B10\, B4\, B7\, B2\, B6\, B12\, B9
+ r Neha Singh\nVenue: FF8\nType: T\nBatches: B14\, B11\, B3\, B12\, C3\, B5
+ \, B7\, B2\, C1\, B13\, B16\, C2\, B6\, B15\, B10\, B9\, B4\, B1\, B8
 LOCATION:FF8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -941,13 +846,13 @@ BEGIN:VEVENT
 SUMMARY:Principles of Management (HS434)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS434
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Principles of Management\nSubject Code: HS434\nTeache
- r: Dr. Shikha Kumari\nVenue: FF9\nType: T\nBatches: B15\, B13\, C1\, B11\,
-  C3\, B5\, B8\, B3\, C2\, G1\, B14\, B1\, B16\, B10\, G2\, B7\, B4\, B2\, 
- B6\, B12\, B9
+ r: Dr. Shikha Kumari\nVenue: FF9\nType: T\nBatches: B14\, G1\, B11\, B12\,
+  C3\, B5\, B7\, B2\, C1\, B13\, C2\, B16\, B6\, G2\, B15\, B4\, B10\, B9\,
+  B3\, B1\, B8
 LOCATION:FF9
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -955,12 +860,12 @@ BEGIN:VEVENT
 SUMMARY:Sociology of Work (HS213)
 DTSTART;TZID=Asia/Kolkata:20260108T140000
 DTEND;TZID=Asia/Kolkata:20260108T145000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Thursday_02:00 PM_HS213
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Sociology of Work\nSubject Code: HS213\nTeacher: Dr Y
- ogita Naruka\nVenue: CS1\nType: T\nBatches: B1\, B15\, B13\, B11\, B10\, B
- 16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, B9
+ ogita Naruka\nVenue: CS1\nType: T\nBatches: B16\, B6\, B14\, B15\, B3\, B1
+ 1\, B10\, B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B13
 LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -968,7 +873,7 @@ BEGIN:VEVENT
 SUMMARY:Artificial Intelligence and Machine Learning (CS222)
 DTSTART;TZID=Asia/Kolkata:20260109T110000
 DTEND;TZID=Asia/Kolkata:20260109T115000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Friday_11:00 AM_CS222
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Artificial Intelligence and Machine Learning\nSubject
@@ -981,19 +886,19 @@ BEGIN:VEVENT
 SUMMARY:Competitive Programming Lab (CS224)
 DTSTART;TZID=Asia/Kolkata:20260109T120000
 DTEND;TZID=Asia/Kolkata:20260109T125000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Friday_12:00 PM_CS224
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Competitive Programming Lab\nSubject Code: CS224\nTea
- cher: Deepika Varshney\nVenue: CR301\nType: L\nBatches: B3\, B4
-LOCATION:CR301
+ cher: Deepika Varshney\nVenue: FF8\nType: L\nBatches: B3\, B4
+LOCATION:FF8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Design and Analysis of Algorithms (CS221)
 DTSTART;TZID=Asia/Kolkata:20260109T150000
 DTEND;TZID=Asia/Kolkata:20260109T165000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Friday_03:00 PM_CS221
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design and Analysis of Algorithms\nSubject Code: CS22
@@ -1006,7 +911,7 @@ BEGIN:VEVENT
 SUMMARY:Environmental Studies (19B13BT211)
 DTSTART;TZID=Asia/Kolkata:20260110T090000
 DTEND;TZID=Asia/Kolkata:20260110T095000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Saturday_09:00 AM_19B13BT211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Environmental Studies\nSubject Code: 19B13BT211\nTeac
@@ -1018,7 +923,7 @@ BEGIN:VEVENT
 SUMMARY:Software Engineering (CS223)
 DTSTART;TZID=Asia/Kolkata:20260110T100000
 DTEND;TZID=Asia/Kolkata:20260110T105000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Saturday_10:00 AM_CS223
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Software Engineering\nSubject Code: CS223\nTeacher: D
@@ -1030,7 +935,7 @@ BEGIN:VEVENT
 SUMMARY:Artificial Intelligence and Machine Learning (CS222)
 DTSTART;TZID=Asia/Kolkata:20260110T110000
 DTEND;TZID=Asia/Kolkata:20260110T115000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Saturday_11:00 AM_CS222
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Artificial Intelligence and Machine Learning\nSubject
@@ -1040,13 +945,13 @@ LOCATION:G6
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PBL on Bioinformatics (17BT212)
+SUMMARY:PBL on Bioinformatics (17BT213)
 DTSTART;TZID=Asia/Kolkata:20260110T120000
 DTEND;TZID=Asia/Kolkata:20260110T135000
-DTSTAMP:20260107T060408Z
-UID:btech-62_sem4_phase1_b3_Saturday_12:00 PM_17BT212
+DTSTAMP:20260107T065656Z
+UID:btech-62_sem4_phase1_b3_Saturday_12:00 PM_17BT213
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PBL on Bioinformatics\nSubject Code: 17BT212\nTeacher
+DESCRIPTION:Subject: PBL on Bioinformatics\nSubject Code: 17BT213\nTeacher
  : Dr. Nidhi Batra\nVenue: BIOINFO\nType: P\nBatches: A1\, A2\, A3\, A4\, A
  5\, A6\, A7\, A8\, A9\, A10\, A15\, A16\, A17\, A18\, B1\, B2\, B3\, B4\, 
  B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, B15\, B16\, C1\, C2
@@ -1058,7 +963,7 @@ BEGIN:VEVENT
 SUMMARY:24B16PH211 (24B16PH211)
 DTSTART;TZID=Asia/Kolkata:20260110T120000
 DTEND;TZID=Asia/Kolkata:20260110T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Saturday_12:00 PM_24B16PH211
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: 24B16PH211\nSubject Code: 24B16PH211\nTeacher: Dr. Sa
@@ -1073,13 +978,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Mobile Application Development (25B16CS212)
 DTSTART;TZID=Asia/Kolkata:20260110T120000
 DTEND;TZID=Asia/Kolkata:20260110T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Saturday_12:00 PM_25B16CS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Mobile Application Development\nSubje
  ct Code: 25B16CS212\nTeacher: Dr. Arpita Jadav Bhatt\, Mr. Shobit\nVenue: 
- CL02/CL03/CL04\nType: P\nBatches: B1\, B15\, B13\, B11\, B10\, B16\, B5\, 
- B8\, B3\, B4\, B7\, B2\, B6\, B14\, B12\, B9
+ CL02/CL03/CL04\nType: P\nBatches: B16\, B6\, B14\, B15\, B3\, B11\, B10\, 
+ B9\, B12\, B5\, B7\, B4\, B1\, B8\, B2\, B13
 LOCATION:CL02/CL03/CL04
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -1087,14 +992,14 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Smart Systems and IoT (25B16CS213)
 DTSTART;TZID=Asia/Kolkata:20260110T120000
 DTEND;TZID=Asia/Kolkata:20260110T135000
-DTSTAMP:20260107T060408Z
+DTSTAMP:20260107T065656Z
 UID:btech-62_sem4_phase1_b3_Saturday_12:00 PM_25B16CS213
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Smart Systems and IoT\nSubject Code: 
- 25B16CS213\nTeacher: Dr. Hema N\, Dr. Vikash\nVenue: CL10\nType: P\nBatche
- s: B1\, B15\, B13\, B11\, B10\, B16\, B5\, B8\, B3\, B4\, B7\, B2\, B6\, B
- 14\, B12\, B9
-LOCATION:CL10
+ 25B16CS213\nTeacher: Dr. Hema N\, Dr. Vikash\nVenue: CL17/CL18\nType: P\nB
+ atches: B16\, B6\, B14\, B15\, B3\, B11\, B10\, B9\, B12\, B5\, B7\, B4\, 
+ B1\, B8\, B2\, B13
+LOCATION:CL17/CL18
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 END:VCALENDAR
