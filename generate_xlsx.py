@@ -3,11 +3,9 @@ from operator import attrgetter
 import camelot
 from openpyxl import Workbook
 
-PDF   = (
-    "https://www.jiit.ac.in/sites/default/files/B.TECH_.%20I%20Sem%20Odd%202025%20Wish%20Town.pdf"
-)
+# PDF = "https://www.jiit.ac.in/sites/default/files/B.TECH_.%20I%20Sem%20Odd%202025%20Wish%20Town.pdf"
 
-PDF = "./raw/time_tables/B.Tech 128 (btech-128)/4/1.pdf"
+PDF = "./B.TECH. II Yr( IV SEMESTER) TIMETABLE EVEN SEMESTER , JIIT-128.pdf"
 PAGES = "all"
 
 tables = camelot.read_pdf(
@@ -24,7 +22,7 @@ wb = Workbook()
 ws = wb.active
 ws.title = "Timetable"
 
-excel_row = 1  
+excel_row = 1
 
 for table in tables:
     table.set_border()
@@ -82,4 +80,3 @@ for table in tables:
     excel_row += nrows + 2
 
 wb.save("timetable.xlsx")
-
