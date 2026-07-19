@@ -1,0 +1,182 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//JIIT Planner//Timetable btech-62 sem5 phase1 a8//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:JIIT BTECH-62 SEM5 PHASE1 A8 Timetable
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:20260719T223001
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Data Structures and Algorithms Design (CI518)
+DTSTART;TZID=Asia/Kolkata:20260720T110000
+DTEND;TZID=Asia/Kolkata:20260720T120000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Monday_11:00 AM_CI518
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures and Algorithms Design\nSubject Code: 
+ CI518\nTeacher: Dr. Tribhuwan K. Tewari\nVenue: TR305\nType: T\nBatches: A
+ 8
+LOCATION:TR305
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soft Skill For Employability (HS311)
+DTSTART;TZID=Asia/Kolkata:20260720T130000
+DTEND;TZID=Asia/Kolkata:20260720T140000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Monday_01:00 PM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Soft Skill For Employability\nSubject Code: HS311\nTe
+ acher: Dr Yogita Naruka\nVenue: G5\nType: L\nBatches: A7\, A8\, A10
+LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures and Algorithms Design (CI518)
+DTSTART;TZID=Asia/Kolkata:20260720T150000
+DTEND;TZID=Asia/Kolkata:20260720T160000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Monday_03:00 PM_CI518
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures and Algorithms Design\nSubject Code: 
+ CI518\nTeacher: Dr. Amarjeet Prajapati\nVenue: G2\nType: L\nBatches: A7\, 
+ A8\, A10
+LOCATION:G2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wireless and Mobile Communication Lab (EC312)
+DTSTART;TZID=Asia/Kolkata:20260721T100000
+DTEND;TZID=Asia/Kolkata:20260721T110000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Tuesday_10:00 AM_EC312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Wireless and Mobile Communication Lab\nSubject Code: 
+ EC312\nTeacher: Dr. Reema Buddhiraja\nVenue: G8\nType: L\nBatches: A7\, A8
+ \, A10
+LOCATION:G8
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soft Skill For Employability (HS311)
+DTSTART;TZID=Asia/Kolkata:20260721T150000
+DTEND;TZID=Asia/Kolkata:20260721T160000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Tuesday_03:00 PM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Soft Skill For Employability\nSubject Code: HS311\nTe
+ acher: Dr Yogita Naruka\nVenue: CS4\nType: L\nBatches: A7\, A8\, A10
+LOCATION:CS4
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures and Algorithms Design (CI518)
+DTSTART;TZID=Asia/Kolkata:20260722T130000
+DTEND;TZID=Asia/Kolkata:20260722T140000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Wednesday_01:00 PM_CI518
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures and Algorithms Design\nSubject Code: 
+ CI518\nTeacher: Dr. Amarjeet Prajapati\nVenue: G2\nType: L\nBatches: A7\, 
+ A8\, A10
+LOCATION:G2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soft Skill For Employability (HS311)
+DTSTART;TZID=Asia/Kolkata:20260723T110000
+DTEND;TZID=Asia/Kolkata:20260723T120000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Thursday_11:00 AM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Soft Skill For Employability\nSubject Code: HS311\nTe
+ acher: Dr Yogita Naruka\nVenue: CS4\nType: L\nBatches: A7\, A8\, A10
+LOCATION:CS4
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wireless and Mobile Communication Lab (EC312)
+DTSTART;TZID=Asia/Kolkata:20260723T140000
+DTEND;TZID=Asia/Kolkata:20260723T160000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Thursday_02:00 PM_EC312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Wireless and Mobile Communication Lab\nSubject Code: 
+ EC312\nTeacher: BPL\, Vishal Narain Saxena\, RGS\nVenue: ACL\nType: P\nBat
+ ches: A8
+LOCATION:ACL
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures and Algorithms Design (CI518)
+DTSTART;TZID=Asia/Kolkata:20260724T100000
+DTEND;TZID=Asia/Kolkata:20260724T110000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Friday_10:00 AM_CI518
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures and Algorithms Design\nSubject Code: 
+ CI518\nTeacher: Dr. Amarjeet Prajapati\nVenue: LT3\nType: L\nBatches: A7\,
+  A8\, A10
+LOCATION:LT3
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wireless and Mobile Communication Lab (EC312)
+DTSTART;TZID=Asia/Kolkata:20260724T110000
+DTEND;TZID=Asia/Kolkata:20260724T120000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Friday_11:00 AM_EC312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Wireless and Mobile Communication Lab\nSubject Code: 
+ EC312\nTeacher: Dr. Reema Buddhiraja\nVenue: G5\nType: L\nBatches: A7\, A8
+ \, A10
+LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Structures and Algorithms Design Lab (CI578)
+DTSTART;TZID=Asia/Kolkata:20260724T140000
+DTEND;TZID=Asia/Kolkata:20260724T160000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Friday_02:00 PM_CI578
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Structures and Algorithms Design Lab\nSubject Co
+ de: CI578\nTeacher: Ms. Sarishty Gupta\, Dr. Tarun Agrawal\nVenue: CL18\nT
+ ype: P\nBatches: A8
+LOCATION:CL18
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wireless and Mobile Communication Lab (EC312)
+DTSTART;TZID=Asia/Kolkata:20260725T100000
+DTEND;TZID=Asia/Kolkata:20260725T110000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Saturday_10:00 AM_EC312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Wireless and Mobile Communication Lab\nSubject Code: 
+ EC312\nTeacher: Dr. Reema Buddhiraja\nVenue: G9\nType: L\nBatches: A7\, A8
+ \, A10
+LOCATION:G9
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wireless and Mobile Communication Lab (EC312)
+DTSTART;TZID=Asia/Kolkata:20260725T110000
+DTEND;TZID=Asia/Kolkata:20260725T120000
+DTSTAMP:20260719T170001Z
+UID:btech-62_sem5_phase1_a8_Saturday_11:00 AM_EC312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Wireless and Mobile Communication Lab\nSubject Code: 
+ EC312\nTeacher: Dr. Reema Buddhiraja\nVenue: TS12\nType: T\nBatches: A8
+LOCATION:TS12
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+END:VCALENDAR
