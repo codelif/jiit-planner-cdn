@@ -8,7 +8,7 @@ BEGIN:VTIMEZONE
 TZID:Asia/Kolkata
 X-LIC-LOCATION:Asia/Kolkata
 BEGIN:STANDARD
-DTSTART:20260722T201855
+DTSTART:20260722T225829
 TZNAME:IST
 TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
@@ -18,13 +18,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of IoT Analytics (26B12CS315)
 DTSTART;TZID=Asia/Kolkata:20260727T080000
 DTEND;TZID=Asia/Kolkata:20260727T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Monday_08:00 AM_26B12CS315
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of IoT Analytics\nSubject Code: 26B12CS3
- 15\nTeacher: APR\nVenue: 3045\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\
- , E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11
- \, F19\, F5\, F14
+ 15\nTeacher: APR\nVenue: 3045\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\
+ , F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18
+ \, E2\, F14\, F10
 LOCATION:3045
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -32,13 +32,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Image Processing and Computer Vision (26B12CS316)
 DTSTART;TZID=Asia/Kolkata:20260727T090000
 DTEND;TZID=Asia/Kolkata:20260727T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Monday_09:00 AM_26B12CS316
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision\
  nSubject Code: 26B12CS316\nTeacher: RKB\nVenue: 226\nType: L\nBatches: F17
- \, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4
- \, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ \, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16
+ \, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:Operating System Concepts (24B41EC311)
 DTSTART;TZID=Asia/Kolkata:20260727T110000
 DTEND;TZID=Asia/Kolkata:20260727T115000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Monday_11:00 AM_24B41EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Operating System Concepts\nSubject Code: 24B41EC311\n
@@ -58,7 +58,7 @@ BEGIN:VEVENT
 SUMMARY:Analog and Digital Communication Lab (18B15EC212)
 DTSTART;TZID=Asia/Kolkata:20260727T140000
 DTEND;TZID=Asia/Kolkata:20260727T155000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Monday_02:00 PM_18B15EC212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Analog and Digital Communication Lab\nSubject Code: 1
@@ -70,13 +70,13 @@ BEGIN:VEVENT
 SUMMARY:IoT Analytics (19B12CS426)
 DTSTART;TZID=Asia/Kolkata:20260727T160000
 DTEND;TZID=Asia/Kolkata:20260727T165000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Monday_04:00 PM_19B12CS426
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: IoT Analytics\nSubject Code: 19B12CS426\nTeacher: New
-  Faculty CS 22\nVenue: 148\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E
- 1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, 
- F19\, F5\, F14
+  Faculty CS 22\nVenue: 148\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F
+ 8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, 
+ E2\, F14\, F10
 LOCATION:148
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -84,13 +84,13 @@ BEGIN:VEVENT
 SUMMARY:Smart Systems and IoT (21B12CS414)
 DTSTART;TZID=Asia/Kolkata:20260727T170000
 DTEND;TZID=Asia/Kolkata:20260727T175000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Monday_05:00 PM_21B12CS414
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Smart Systems and IoT\nSubject Code: 21B12CS414\nTeac
- her: New Faculty CS 21\nVenue: 111\nType: L\nBatches: F17\, F1\, F6\, F3\,
-  F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\
- , F11\, F19\, F5\, F14
+ her: New Faculty CS 21\nVenue: 111\nType: L\nBatches: F17\, F2\, F11\, E3\
+ , F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\
+ , F18\, E2\, F14\, F10
 LOCATION:111
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -98,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:Indian Constitution & Traditional Knowledge (20B13HS311)
 DTSTART;TZID=Asia/Kolkata:20260728T100000
 DTEND;TZID=Asia/Kolkata:20260728T105000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_10:00 AM_20B13HS311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Indian Constitution & Traditional Knowledge\nSubject 
@@ -111,13 +111,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Image Processing and Computer Vision (26B12CS316)
 DTSTART;TZID=Asia/Kolkata:20260728T080000
 DTEND;TZID=Asia/Kolkata:20260728T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_08:00 AM_26B12CS316
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision\
  nSubject Code: 26B12CS316\nTeacher: \nVenue: 226\nType: L\nBatches: F17\, 
- F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, 
- E4\, F2\, F16\, F11\, F19\, F5\, F14
+ F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, 
+ F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -125,13 +125,13 @@ BEGIN:VEVENT
 SUMMARY:Computer Networks and Security (18B11CS212)
 DTSTART;TZID=Asia/Kolkata:20260728T080000
 DTEND;TZID=Asia/Kolkata:20260728T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_08:00 AM_18B11CS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Networks and Security\nSubject Code: 18B11CS
- 212\nTeacher: MOK\nVenue: 3045\nType: L\nBatches: F17\, F1\, F6\, F3\, F10
- \, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F1
- 1\, F19\, F5\, F14
+ 212\nTeacher: MOK\nVenue: 3045\nType: L\nBatches: F17\, F2\, F11\, E3\, F5
+ \, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F1
+ 8\, E2\, F14\, F10
 LOCATION:3045
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -139,13 +139,13 @@ BEGIN:VEVENT
 SUMMARY:Cloud and Edge Computing (26B42EC311)
 DTSTART;TZID=Asia/Kolkata:20260728T080000
 DTEND;TZID=Asia/Kolkata:20260728T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_08:00 AM_26B42EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Cloud and Edge Computing\nSubject Code: 26B42EC311\nT
- eacher: ASR\nVenue: 244B\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\
- , F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F1
- 9\, F5\, F14
+ eacher: ASR\nVenue: 244B\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\
+ , F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2
+ \, F14\, F10
 LOCATION:244B
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -153,13 +153,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of IoT Analytics (26B12CS315)
 DTSTART;TZID=Asia/Kolkata:20260728T090000
 DTEND;TZID=Asia/Kolkata:20260728T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_09:00 AM_26B12CS315
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of IoT Analytics\nSubject Code: 26B12CS3
- 15\nTeacher: APR\nVenue: 244\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\,
-  E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\
- , F19\, F5\, F14
+ 15\nTeacher: APR\nVenue: 244\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\,
+  F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\
+ , E2\, F14\, F10
 LOCATION:244
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -167,13 +167,13 @@ BEGIN:VEVENT
 SUMMARY:Design Principles of VLSI Systems using Verilog (26B42EC313)
 DTSTART;TZID=Asia/Kolkata:20260728T090000
 DTEND;TZID=Asia/Kolkata:20260728T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_09:00 AM_26B42EC313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design Principles of VLSI Systems using Verilog\nSubj
  ect Code: 26B42EC313\nTeacher: Himani Gupta\nVenue: 228\nType: L\nBatches:
-  F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\
- , F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+  F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\,
+  F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:228
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -181,13 +181,13 @@ BEGIN:VEVENT
 SUMMARY:Information Theory and Application (17B1NEC735)
 DTSTART;TZID=Asia/Kolkata:20260728T090000
 DTEND;TZID=Asia/Kolkata:20260728T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_09:00 AM_17B1NEC735
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Information Theory and Application\nSubject Code: 17B
- 1NEC735\nTeacher: Ruchi Singh\nVenue: 217\nType: L\nBatches: F17\, F1\, F6
- \, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2
- \, F16\, F11\, F19\, F5\, F14
+ 1NEC735\nTeacher: Ruchi Singh\nVenue: 217\nType: L\nBatches: F17\, F2\, F1
+ 1\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4
+ \, F19\, F18\, E2\, F14\, F10
 LOCATION:217
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -195,7 +195,7 @@ BEGIN:VEVENT
 SUMMARY:Operating System Concepts (24B41EC311)
 DTSTART;TZID=Asia/Kolkata:20260728T120000
 DTEND;TZID=Asia/Kolkata:20260728T125000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_12:00 PM_24B41EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Operating System Concepts\nSubject Code: 24B41EC311\n
@@ -207,13 +207,13 @@ BEGIN:VEVENT
 SUMMARY:Fog and Edge Computing (19B12CS413)
 DTSTART;TZID=Asia/Kolkata:20260728T160000
 DTEND;TZID=Asia/Kolkata:20260728T165000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_04:00 PM_19B12CS413
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fog and Edge Computing\nSubject Code: 19B12CS413\nTea
- cher: New Faculty CS 23\nVenue: 148\nType: L\nBatches: F17\, F1\, F6\, F3\
- , F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16
- \, F11\, F19\, F5\, F14
+ cher: New Faculty CS 23\nVenue: 148\nType: L\nBatches: F17\, F2\, F11\, E3
+ \, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19
+ \, F18\, E2\, F14\, F10
 LOCATION:148
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -221,13 +221,13 @@ BEGIN:VEVENT
 SUMMARY:Smart Systems and IoT (21B12CS414)
 DTSTART;TZID=Asia/Kolkata:20260728T170000
 DTEND;TZID=Asia/Kolkata:20260728T175000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Tuesday_05:00 PM_21B12CS414
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Smart Systems and IoT\nSubject Code: 21B12CS414\nTeac
- her: New Faculty CS 21\nVenue: 111\nType: L\nBatches: F17\, F1\, F6\, F3\,
-  F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\
- , F11\, F19\, F5\, F14
+ her: New Faculty CS 21\nVenue: 111\nType: L\nBatches: F17\, F2\, F11\, E3\
+ , F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\
+ , F18\, E2\, F14\, F10
 LOCATION:111
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -235,7 +235,7 @@ BEGIN:VEVENT
 SUMMARY:Indian Constitution & Traditional Knowledge (20B13HS311)
 DTSTART;TZID=Asia/Kolkata:20260729T120000
 DTEND;TZID=Asia/Kolkata:20260729T125000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_12:00 PM_20B13HS311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Indian Constitution & Traditional Knowledge\nSubject 
@@ -248,13 +248,13 @@ BEGIN:VEVENT
 SUMMARY:Statistical Information Theory with Applications (17B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_17B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Statistical Information Theory with Applications\nSub
  ject Code: 17B1NMA533\nTeacher: SREYA\nVenue: 259\nType: L\nBatches: F17\,
-  F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\,
-  E4\, F2\, F16\, F11\, F19\, F5\, F14
+  F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\,
+  F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:259
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -262,13 +262,13 @@ BEGIN:VEVENT
 SUMMARY:Matrix Computations (16B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_16B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Matrix Computations\nSubject Code: 16B1NMA533\nTeache
- r: AMB\nVenue: 254\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\,
-  F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5
- \, F14
+ r: AMB\nVenue: 254\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\,
+  F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14
+ \, F10
 LOCATION:254
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -276,13 +276,13 @@ BEGIN:VEVENT
 SUMMARY:Logical Reasoning and Inequalities (18B12MA312)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_18B12MA312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Logical Reasoning and Inequalities\nSubject Code: 18B
- 12MA312\nTeacher: MUKESH\nVenue: 3040\nType: L\nBatches: F17\, F1\, F6\, F
- 3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F
- 16\, F11\, F19\, F5\, F14
+ 12MA312\nTeacher: MUKESH\nVenue: 3040\nType: L\nBatches: F17\, F2\, F11\, 
+ E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F
+ 19\, F18\, E2\, F14\, F10
 LOCATION:3040
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -290,13 +290,13 @@ BEGIN:VEVENT
 SUMMARY:Basic Numerical Methods (17B1NMA531)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_17B1NMA531
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Basic Numerical Methods\nSubject Code: 17B1NMA531\nTe
- acher: Pankaj Kumar Srivastava\nVenue: 117\nType: L\nBatches: F17\, F1\, F
- 6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F
- 2\, F16\, F11\, F19\, F5\, F14
+ acher: Pankaj Kumar Srivastava\nVenue: 117\nType: L\nBatches: F17\, F2\, F
+ 11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E
+ 4\, F19\, F18\, E2\, F14\, F10
 LOCATION:117
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -304,13 +304,13 @@ BEGIN:VEVENT
 SUMMARY:Quantum Mechanics for Engineers (16B1NPH531)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_16B1NPH531
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Quantum Mechanics for Engineers\nSubject Code: 16B1NP
- H531\nTeacher: KAS\nVenue: CR54\nType: L\nBatches: F17\, F1\, F6\, F3\, F1
- 0\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F
- 11\, F19\, F5\, F14
+ H531\nTeacher: KAS\nVenue: CR54\nType: L\nBatches: F17\, F2\, F11\, E3\, F
+ 5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F
+ 18\, E2\, F14\, F10
 LOCATION:CR54
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -318,13 +318,13 @@ BEGIN:VEVENT
 SUMMARY:Material Science (16B1NPH532)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_16B1NPH532
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Material Science\nSubject Code: 16B1NPH532\nTeacher: 
- SHALU\nVenue: 244\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, 
- F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\
- , F14
+ SHALU\nVenue: 244\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, 
+ F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\
+ , F10
 LOCATION:244
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -332,13 +332,13 @@ BEGIN:VEVENT
 SUMMARY:Nuclear Science and Engineering (16B1NPH535)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_16B1NPH535
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Nuclear Science and Engineering\nSubject Code: 16B1NP
- H535\nTeacher: Deepti Singh\nVenue: 230\nType: L\nBatches: F17\, F1\, F6\,
-  F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\,
-  F16\, F11\, F19\, F5\, F14
+ H535\nTeacher: Deepti Singh\nVenue: 230\nType: L\nBatches: F17\, F2\, F11\
+ , E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\,
+  F19\, F18\, E2\, F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -346,13 +346,13 @@ BEGIN:VEVENT
 SUMMARY:FDTD Simulation Techniques using Nanoengineering (26B12PH312)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_26B12PH312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: FDTD Simulation Techniques using Nanoengineering\nSub
  ject Code: 26B12PH312\nTeacher: Suneet Kumar Awasthi\nVenue: 118\nType: L\
- nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F
- 18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, 
+ F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:118
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -360,13 +360,13 @@ BEGIN:VEVENT
 SUMMARY:Engineering Statistical Mechanics (26B12PH313)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_26B12PH313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Engineering Statistical Mechanics\nSubject Code: 26B1
- 2PH313\nTeacher: Narender Khatri\nVenue: 244B\nType: L\nBatches: F17\, F1\
- , F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\
- , F2\, F16\, F11\, F19\, F5\, F14
+ 2PH313\nTeacher: Narender Khatri\nVenue: 244B\nType: L\nBatches: F17\, F2\
+ , F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\
+ , E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:244B
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -374,13 +374,13 @@ BEGIN:VEVENT
 SUMMARY:Laser Technology and Applications (16B1NPH533)
 DTSTART;TZID=Asia/Kolkata:20260729T080000
 DTEND;TZID=Asia/Kolkata:20260729T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_08:00 AM_16B1NPH533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Laser Technology and Applications\nSubject Code: 16B1
  NPH533\nTeacher: Anshu Dhirendra Varshney\nVenue: 226\nType: L\nBatches: F
- 17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, 
- F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ 17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F
+ 16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -388,13 +388,13 @@ BEGIN:VEVENT
 SUMMARY:Computer Networks and Security (18B11CS212)
 DTSTART;TZID=Asia/Kolkata:20260729T090000
 DTEND;TZID=Asia/Kolkata:20260729T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_09:00 AM_18B11CS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Networks and Security\nSubject Code: 18B11CS
- 212\nTeacher: MOK\nVenue: 226\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\
- , E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11
- \, F19\, F5\, F14
+ 212\nTeacher: MOK\nVenue: 226\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\
+ , F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18
+ \, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -402,13 +402,13 @@ BEGIN:VEVENT
 SUMMARY:Cloud and Edge Computing (26B42EC311)
 DTSTART;TZID=Asia/Kolkata:20260729T090000
 DTEND;TZID=Asia/Kolkata:20260729T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_09:00 AM_26B42EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Cloud and Edge Computing\nSubject Code: 26B42EC311\nT
- eacher: ASR\nVenue: 230\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\,
-  F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19
- \, F5\, F14
+ eacher: ASR\nVenue: 230\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\,
+  F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\
+ , F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -416,7 +416,7 @@ BEGIN:VEVENT
 SUMMARY:Analog and Digital Communication (18B11EC212)
 DTSTART;TZID=Asia/Kolkata:20260729T100000
 DTEND;TZID=Asia/Kolkata:20260729T105000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_10:00 AM_18B11EC212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Analog and Digital Communication\nSubject Code: 18B11
@@ -428,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:Operating System Concepts Lab (24B45EC311)
 DTSTART;TZID=Asia/Kolkata:20260729T140000
 DTEND;TZID=Asia/Kolkata:20260729T155000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_02:00 PM_24B45EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Operating System Concepts Lab\nSubject Code: 24B45EC3
@@ -440,13 +440,13 @@ BEGIN:VEVENT
 SUMMARY:Fog and Edge Computing (19B12CS413)
 DTSTART;TZID=Asia/Kolkata:20260729T160000
 DTEND;TZID=Asia/Kolkata:20260729T165000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_04:00 PM_19B12CS413
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fog and Edge Computing\nSubject Code: 19B12CS413\nTea
- cher: New Faculty CS 23\nVenue: 148\nType: L\nBatches: F17\, F1\, F6\, F3\
- , F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16
- \, F11\, F19\, F5\, F14
+ cher: New Faculty CS 23\nVenue: 148\nType: L\nBatches: F17\, F2\, F11\, E3
+ \, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19
+ \, F18\, E2\, F14\, F10
 LOCATION:148
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -454,13 +454,13 @@ BEGIN:VEVENT
 SUMMARY:Smart Systems and IoT (21B12CS414)
 DTSTART;TZID=Asia/Kolkata:20260729T170000
 DTEND;TZID=Asia/Kolkata:20260729T175000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Wednesday_05:00 PM_21B12CS414
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Smart Systems and IoT\nSubject Code: 21B12CS414\nTeac
- her: New Faculty CS 21\nVenue: 111\nType: L\nBatches: F17\, F1\, F6\, F3\,
-  F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\
- , F11\, F19\, F5\, F14
+ her: New Faculty CS 21\nVenue: 111\nType: L\nBatches: F17\, F2\, F11\, E3\
+ , F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\
+ , F18\, E2\, F14\, F10
 LOCATION:111
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -468,13 +468,13 @@ BEGIN:VEVENT
 SUMMARY:Information Theory and Application (17B1NEC735)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_08:00 AM_17B1NEC735
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Information Theory and Application\nSubject Code: 17B
- 1NEC735\nTeacher: Ruchi Singh\nVenue: 226\nType: L\nBatches: F17\, F1\, F6
- \, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2
- \, F16\, F11\, F19\, F5\, F14
+ 1NEC735\nTeacher: Ruchi Singh\nVenue: 226\nType: L\nBatches: F17\, F2\, F1
+ 1\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4
+ \, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -482,13 +482,13 @@ BEGIN:VEVENT
 SUMMARY:Design Principles of VLSI Systems using Verilog (26B42EC313)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_08:00 AM_26B42EC313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design Principles of VLSI Systems using Verilog\nSubj
  ect Code: 26B42EC313\nTeacher: Himani Gupta\nVenue: 230\nType: L\nBatches:
-  F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\
- , F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+  F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\,
+  F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -496,13 +496,13 @@ BEGIN:VEVENT
 SUMMARY:Statistical Information Theory with Applications (17B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_17B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Statistical Information Theory with Applications\nSub
  ject Code: 17B1NMA533\nTeacher: SREYA\nVenue: 3083\nType: L\nBatches: F17\
- , F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\
- , E4\, F2\, F16\, F11\, F19\, F5\, F14
+ , F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\
+ , F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:3083
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -510,13 +510,13 @@ BEGIN:VEVENT
 SUMMARY:Matrix Computations (16B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_16B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Matrix Computations\nSubject Code: 16B1NMA533\nTeache
- r: AMB\nVenue: 259\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\,
-  F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5
- \, F14
+ r: AMB\nVenue: 259\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\,
+  F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14
+ \, F10
 LOCATION:259
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -524,13 +524,13 @@ BEGIN:VEVENT
 SUMMARY:Logical Reasoning and Inequalities (18B12MA312)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_18B12MA312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Logical Reasoning and Inequalities\nSubject Code: 18B
- 12MA312\nTeacher: MUKESH\nVenue: 3040\nType: L\nBatches: F17\, F1\, F6\, F
- 3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F
- 16\, F11\, F19\, F5\, F14
+ 12MA312\nTeacher: MUKESH\nVenue: 3040\nType: L\nBatches: F17\, F2\, F11\, 
+ E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F
+ 19\, F18\, E2\, F14\, F10
 LOCATION:3040
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -538,13 +538,13 @@ BEGIN:VEVENT
 SUMMARY:Basic Numerical Methods (17B1NMA531)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_17B1NMA531
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Basic Numerical Methods\nSubject Code: 17B1NMA531\nTe
- acher: Pankaj Kumar Srivastava\nVenue: CR54\nType: L\nBatches: F17\, F1\, 
- F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, 
- F2\, F16\, F11\, F19\, F5\, F14
+ acher: Pankaj Kumar Srivastava\nVenue: CR54\nType: L\nBatches: F17\, F2\, 
+ F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, 
+ E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:CR54
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -552,13 +552,13 @@ BEGIN:VEVENT
 SUMMARY:Quantum Mechanics for Engineers (16B1NPH531)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_16B1NPH531
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Quantum Mechanics for Engineers\nSubject Code: 16B1NP
- H531\nTeacher: KAS\nVenue: 3093\nType: L\nBatches: F17\, F1\, F6\, F3\, F1
- 0\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F
- 11\, F19\, F5\, F14
+ H531\nTeacher: KAS\nVenue: 3093\nType: L\nBatches: F17\, F2\, F11\, E3\, F
+ 5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F
+ 18\, E2\, F14\, F10
 LOCATION:3093
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -566,13 +566,13 @@ BEGIN:VEVENT
 SUMMARY:Material Science (16B1NPH532)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_16B1NPH532
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Material Science\nSubject Code: 16B1NPH532\nTeacher: 
- SHALU\nVenue: 244\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, 
- F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\
- , F14
+ SHALU\nVenue: 244\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, 
+ F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\
+ , F10
 LOCATION:244
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -580,13 +580,13 @@ BEGIN:VEVENT
 SUMMARY:Nuclear Science and Engineering (16B1NPH535)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_16B1NPH535
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Nuclear Science and Engineering\nSubject Code: 16B1NP
- H535\nTeacher: Deepti Singh\nVenue: 3098\nType: L\nBatches: F17\, F1\, F6\
- , F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\
- , F16\, F11\, F19\, F5\, F14
+ H535\nTeacher: Deepti Singh\nVenue: 3098\nType: L\nBatches: F17\, F2\, F11
+ \, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\
+ , F19\, F18\, E2\, F14\, F10
 LOCATION:3098
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -594,13 +594,13 @@ BEGIN:VEVENT
 SUMMARY:FDTD Simulation Techniques using Nanoengineering (26B12PH312)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_26B12PH312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: FDTD Simulation Techniques using Nanoengineering\nSub
  ject Code: 26B12PH312\nTeacher: Suneet Kumar Awasthi\nVenue: 230\nType: L\
- nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F
- 18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, 
+ F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -608,13 +608,13 @@ BEGIN:VEVENT
 SUMMARY:Engineering Statistical Mechanics (26B12PH313)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_26B12PH313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Engineering Statistical Mechanics\nSubject Code: 26B1
- 2PH313\nTeacher: Narender Khatri\nVenue: 244B\nType: L\nBatches: F17\, F1\
- , F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\
- , F2\, F16\, F11\, F19\, F5\, F14
+ 2PH313\nTeacher: Narender Khatri\nVenue: 244B\nType: L\nBatches: F17\, F2\
+ , F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\
+ , E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:244B
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -622,13 +622,13 @@ BEGIN:VEVENT
 SUMMARY:Laser Technology and Applications (16B1NPH533)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_09:00 AM_16B1NPH533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Laser Technology and Applications\nSubject Code: 16B1
  NPH533\nTeacher: Anshu Dhirendra Varshney\nVenue: 226\nType: L\nBatches: F
- 17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, 
- F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ 17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F
+ 16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -636,7 +636,7 @@ BEGIN:VEVENT
 SUMMARY:Operating System Concepts (24B41EC311)
 DTSTART;TZID=Asia/Kolkata:20260723T100000
 DTEND;TZID=Asia/Kolkata:20260723T105000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_10:00 AM_24B41EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Operating System Concepts\nSubject Code: 24B41EC311\n
@@ -648,7 +648,7 @@ BEGIN:VEVENT
 SUMMARY:Analog and Digital Communication (18B11EC212)
 DTSTART;TZID=Asia/Kolkata:20260723T120000
 DTEND;TZID=Asia/Kolkata:20260723T125000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_12:00 PM_18B11EC212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Analog and Digital Communication\nSubject Code: 18B11
@@ -660,13 +660,13 @@ BEGIN:VEVENT
 SUMMARY:Fog and Edge Computing (19B12CS413)
 DTSTART;TZID=Asia/Kolkata:20260723T160000
 DTEND;TZID=Asia/Kolkata:20260723T165000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_04:00 PM_19B12CS413
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fog and Edge Computing\nSubject Code: 19B12CS413\nTea
- cher: New Faculty CS 23\nVenue: 148\nType: L\nBatches: F17\, F1\, F6\, F3\
- , F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16
- \, F11\, F19\, F5\, F14
+ cher: New Faculty CS 23\nVenue: 148\nType: L\nBatches: F17\, F2\, F11\, E3
+ \, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19
+ \, F18\, E2\, F14\, F10
 LOCATION:148
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -674,13 +674,13 @@ BEGIN:VEVENT
 SUMMARY:IoT Analytics (19B12CS426)
 DTSTART;TZID=Asia/Kolkata:20260723T170000
 DTEND;TZID=Asia/Kolkata:20260723T175000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Thursday_05:00 PM_19B12CS426
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: IoT Analytics\nSubject Code: 19B12CS426\nTeacher: New
-  Faculty CS 22\nVenue: 111\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E
- 1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, 
- F19\, F5\, F14
+  Faculty CS 22\nVenue: 111\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F
+ 8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, 
+ E2\, F14\, F10
 LOCATION:111
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -688,7 +688,7 @@ BEGIN:VEVENT
 SUMMARY:Indian Constitution & Traditional Knowledge (20B13HS311)
 DTSTART;TZID=Asia/Kolkata:20260724T150000
 DTEND;TZID=Asia/Kolkata:20260724T155000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_03:00 PM_20B13HS311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Indian Constitution & Traditional Knowledge\nSubject 
@@ -701,13 +701,13 @@ BEGIN:VEVENT
 SUMMARY:Statistical Information Theory with Applications (17B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_17B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Statistical Information Theory with Applications\nSub
  ject Code: 17B1NMA533\nTeacher: SREYA\nVenue: 3083\nType: L\nBatches: F17\
- , F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\
- , E4\, F2\, F16\, F11\, F19\, F5\, F14
+ , F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\
+ , F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:3083
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -715,13 +715,13 @@ BEGIN:VEVENT
 SUMMARY:Matrix Computations (16B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_16B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Matrix Computations\nSubject Code: 16B1NMA533\nTeache
- r: AMB\nVenue: 259\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\,
-  F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5
- \, F14
+ r: AMB\nVenue: 259\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\,
+  F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14
+ \, F10
 LOCATION:259
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -729,13 +729,13 @@ BEGIN:VEVENT
 SUMMARY:Logical Reasoning and Inequalities (18B12MA312)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_18B12MA312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Logical Reasoning and Inequalities\nSubject Code: 18B
- 12MA312\nTeacher: MUKESH\nVenue: 3040\nType: L\nBatches: F17\, F1\, F6\, F
- 3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F
- 16\, F11\, F19\, F5\, F14
+ 12MA312\nTeacher: MUKESH\nVenue: 3040\nType: L\nBatches: F17\, F2\, F11\, 
+ E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F
+ 19\, F18\, E2\, F14\, F10
 LOCATION:3040
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -743,13 +743,13 @@ BEGIN:VEVENT
 SUMMARY:Basic Numerical Methods (17B1NMA531)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_17B1NMA531
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Basic Numerical Methods\nSubject Code: 17B1NMA531\nTe
- acher: Pankaj Kumar Srivastava\nVenue: CR54\nType: L\nBatches: F17\, F1\, 
- F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, 
- F2\, F16\, F11\, F19\, F5\, F14
+ acher: Pankaj Kumar Srivastava\nVenue: CR54\nType: L\nBatches: F17\, F2\, 
+ F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, 
+ E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:CR54
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -757,13 +757,13 @@ BEGIN:VEVENT
 SUMMARY:Quantum Mechanics for Engineers (16B1NPH531)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_16B1NPH531
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Quantum Mechanics for Engineers\nSubject Code: 16B1NP
- H531\nTeacher: KAS\nVenue: 3093\nType: L\nBatches: F17\, F1\, F6\, F3\, F1
- 0\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F
- 11\, F19\, F5\, F14
+ H531\nTeacher: KAS\nVenue: 3093\nType: L\nBatches: F17\, F2\, F11\, E3\, F
+ 5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F
+ 18\, E2\, F14\, F10
 LOCATION:3093
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -771,13 +771,13 @@ BEGIN:VEVENT
 SUMMARY:Material Science (16B1NPH532)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_16B1NPH532
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Material Science\nSubject Code: 16B1NPH532\nTeacher: 
- SHALU\nVenue: 244\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, 
- F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\
- , F14
+ SHALU\nVenue: 244\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, 
+ F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\
+ , F10
 LOCATION:244
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -785,13 +785,13 @@ BEGIN:VEVENT
 SUMMARY:Nuclear Science and Engineering (16B1NPH535)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_16B1NPH535
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Nuclear Science and Engineering\nSubject Code: 16B1NP
- H535\nTeacher: Deepti Singh\nVenue: 3098\nType: L\nBatches: F17\, F1\, F6\
- , F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\
- , F16\, F11\, F19\, F5\, F14
+ H535\nTeacher: Deepti Singh\nVenue: 3098\nType: L\nBatches: F17\, F2\, F11
+ \, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\
+ , F19\, F18\, E2\, F14\, F10
 LOCATION:3098
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -799,13 +799,13 @@ BEGIN:VEVENT
 SUMMARY:FDTD Simulation Techniques using Nanoengineering (26B12PH312)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_26B12PH312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: FDTD Simulation Techniques using Nanoengineering\nSub
  ject Code: 26B12PH312\nTeacher: Suneet Kumar Awasthi\nVenue: 230\nType: L\
- nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F
- 18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, 
+ F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -813,13 +813,13 @@ BEGIN:VEVENT
 SUMMARY:Engineering Statistical Mechanics (26B12PH313)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_26B12PH313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Engineering Statistical Mechanics\nSubject Code: 26B1
- 2PH313\nTeacher: Narender Khatri\nVenue: 244B\nType: L\nBatches: F17\, F1\
- , F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\
- , F2\, F16\, F11\, F19\, F5\, F14
+ 2PH313\nTeacher: Narender Khatri\nVenue: 244B\nType: L\nBatches: F17\, F2\
+ , F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\
+ , E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:244B
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -827,13 +827,13 @@ BEGIN:VEVENT
 SUMMARY:Laser Technology and Applications (16B1NPH533)
 DTSTART;TZID=Asia/Kolkata:20260724T090000
 DTEND;TZID=Asia/Kolkata:20260724T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_09:00 AM_16B1NPH533
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Laser Technology and Applications\nSubject Code: 16B1
  NPH533\nTeacher: Anshu Dhirendra Varshney\nVenue: 226\nType: L\nBatches: F
- 17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, 
- F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ 17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F
+ 16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -841,7 +841,7 @@ BEGIN:VEVENT
 SUMMARY:Analog and Digital Communication (18B11EC212)
 DTSTART;TZID=Asia/Kolkata:20260724T100000
 DTEND;TZID=Asia/Kolkata:20260724T105000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_10:00 AM_18B11EC212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Analog and Digital Communication\nSubject Code: 18B11
@@ -853,7 +853,7 @@ BEGIN:VEVENT
 SUMMARY:Operating System Concepts (24B41EC311)
 DTSTART;TZID=Asia/Kolkata:20260724T120000
 DTEND;TZID=Asia/Kolkata:20260724T125000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_12:00 PM_24B41EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Operating System Concepts\nSubject Code: 24B41EC311\n
@@ -865,13 +865,13 @@ BEGIN:VEVENT
 SUMMARY:IoT Analytics (19B12CS426)
 DTSTART;TZID=Asia/Kolkata:20260724T170000
 DTEND;TZID=Asia/Kolkata:20260724T175000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Friday_05:00 PM_19B12CS426
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: IoT Analytics\nSubject Code: 19B12CS426\nTeacher: New
-  Faculty CS 22\nVenue: 111\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E
- 1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, 
- F19\, F5\, F14
+  Faculty CS 22\nVenue: 111\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F
+ 8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, 
+ E2\, F14\, F10
 LOCATION:111
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -879,13 +879,13 @@ BEGIN:VEVENT
 SUMMARY:Information Theory and Application (17B1NEC735)
 DTSTART;TZID=Asia/Kolkata:20260725T080000
 DTEND;TZID=Asia/Kolkata:20260725T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Saturday_08:00 AM_17B1NEC735
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Information Theory and Application\nSubject Code: 17B
- 1NEC735\nTeacher: Ruchi Singh\nVenue: 226\nType: L\nBatches: F17\, F1\, F6
- \, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2
- \, F16\, F11\, F19\, F5\, F14
+ 1NEC735\nTeacher: Ruchi Singh\nVenue: 226\nType: L\nBatches: F17\, F2\, F1
+ 1\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4
+ \, F19\, F18\, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -893,13 +893,13 @@ BEGIN:VEVENT
 SUMMARY:Design Principles of VLSI Systems using Verilog (26B42EC313)
 DTSTART;TZID=Asia/Kolkata:20260725T080000
 DTEND;TZID=Asia/Kolkata:20260725T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Saturday_08:00 AM_26B42EC313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Design Principles of VLSI Systems using Verilog\nSubj
  ect Code: 26B42EC313\nTeacher: Himani Gupta\nVenue: 230\nType: L\nBatches:
-  F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\
- , F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+  F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\,
+  F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -907,13 +907,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of IoT Analytics Lab (26B16CS315)
 DTSTART;TZID=Asia/Kolkata:20260725T080000
 DTEND;TZID=Asia/Kolkata:20260725T205000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Saturday_08:00 AM_26B16CS315
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of IoT Analytics Lab\nSubject Code: 26B1
  6CS315\nTeacher: New Faculty CS 9\, New Faculty CS 10\nVenue: AIML LAB\nTy
- pe: P\nBatches: F17\, F1\, F6\, F3\, F10\, E1\, F7\, F9\, F13\, F8\, E2\, 
- E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19\, F5\, F14
+ pe: P\nBatches: F17\, F2\, F11\, E3\, F5\, F8\, F4\, F13\, F12\, F9\, E1\,
+  F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\, F14\, F10
 LOCATION:AIML LAB
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -921,13 +921,13 @@ BEGIN:VEVENT
 SUMMARY:Computer Networks and Security (18B11CS212)
 DTSTART;TZID=Asia/Kolkata:20260725T090000
 DTEND;TZID=Asia/Kolkata:20260725T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Saturday_09:00 AM_18B11CS212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Networks and Security\nSubject Code: 18B11CS
- 212\nTeacher: MOK\nVenue: 226\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\
- , E1\, F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11
- \, F19\, F5\, F14
+ 212\nTeacher: MOK\nVenue: 226\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\
+ , F8\, F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18
+ \, E2\, F14\, F10
 LOCATION:226
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -935,13 +935,13 @@ BEGIN:VEVENT
 SUMMARY:Cloud and Edge Computing (26B42EC311)
 DTSTART;TZID=Asia/Kolkata:20260725T090000
 DTEND;TZID=Asia/Kolkata:20260725T095000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Saturday_09:00 AM_26B42EC311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Cloud and Edge Computing\nSubject Code: 26B42EC311\nT
- eacher: ASR\nVenue: 230\nType: L\nBatches: F17\, F1\, F6\, F3\, F10\, E1\,
-  F7\, F9\, F13\, F8\, E2\, E3\, F18\, F12\, F4\, E4\, F2\, F16\, F11\, F19
- \, F5\, F14
+ eacher: ASR\nVenue: 230\nType: L\nBatches: F17\, F2\, F11\, E3\, F5\, F8\,
+  F4\, F13\, F12\, F9\, E1\, F6\, F3\, F1\, F16\, F7\, E4\, F19\, F18\, E2\
+ , F14\, F10
 LOCATION:230
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -949,7 +949,7 @@ BEGIN:VEVENT
 SUMMARY:Analog and Digital Communication (18B11EC212)
 DTSTART;TZID=Asia/Kolkata:20260725T120000
 DTEND;TZID=Asia/Kolkata:20260725T125000
-DTSTAMP:20260722T144855Z
+DTSTAMP:20260722T172829Z
 UID:btech-128_sem5_phase1_e2_Saturday_12:00 PM_18B11EC212
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Analog and Digital Communication\nSubject Code: 18B11
