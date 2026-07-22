@@ -95,7 +95,7 @@ def get_curriculum_map():
 
 
 def get_events(
-    branch_xl: str | None, faculty_json: str
+    branch_xl: str | None, faculty_json: str, course_context: str = ""
 ) -> tuple[List[Event | Elective], List[str]]:
     if not branch_xl:
         return [], []
@@ -105,7 +105,15 @@ def get_events(
         return [], []
 
     sheet, r, c = ws
-    evs = parse_events(sheet, electives_file, r, c, faculty_json, "curriculum.json")
+    evs = parse_events(
+        sheet,
+        electives_file,
+        r,
+        c,
+        faculty_json,
+        "curriculum.json",
+        course_context,
+    )
     batches = set()
     for ev in evs:
         if ev is not None:
@@ -243,10 +251,10 @@ def generate_json():
                 )
                 metadata["batches"][course_id][sem_id][phase_id] = []
                 excel_path = excels.get("_".join((course_id, sem_id, phase_id)))
-                evs, batches = get_events(excel_path, faculty_json)
+                elective_key = "_".join((course_id, sem_id, phase_id))
+                evs, batches = get_events(excel_path, faculty_json, elective_key)
                 print(batches)
                 electives = get_electives(evs, batches)
-                elective_key = "_".join((course_id, sem_id, phase_id))
                 classes["electives"][elective_key] = electives
 
                 for batch in batches:

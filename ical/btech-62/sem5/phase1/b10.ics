@@ -8,7 +8,7 @@ BEGIN:VTIMEZONE
 TZID:Asia/Kolkata
 X-LIC-LOCATION:Asia/Kolkata
 BEGIN:STANDARD
-DTSTART:20260720T133152
+DTSTART:20260722T153328
 TZNAME:IST
 TZOFFSETFROM:+0530
 TZOFFSETTO:+0530
@@ -18,7 +18,7 @@ BEGIN:VEVENT
 SUMMARY:Full Stack Development Lab (15CS314)
 DTSTART;TZID=Asia/Kolkata:20260727T100000
 DTEND;TZID=Asia/Kolkata:20260727T120000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_10:00 AM_15CS314
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Full Stack Development Lab\nSubject Code: 15CS314\nTe
@@ -28,10 +28,23 @@ LOCATION:CL18/CL19
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Indian Constitution & Traditional Knowledge (HS311)
+DTSTART;TZID=Asia/Kolkata:20260727T140000
+DTEND;TZID=Asia/Kolkata:20260727T150000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Monday_02:00 PM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Indian Constitution & Traditional Knowledge\nSubject 
+ Code: HS311\nTeacher: Dr. Ila Joshi\nVenue: CS1\nType: L\nBatches: B9\, B1
+ 0
+LOCATION:CS1
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Fundamentals of Blockchain Technology Lab (16CS317)
 DTSTART;TZID=Asia/Kolkata:20260727T080000
 DTEND;TZID=Asia/Kolkata:20260727T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_08:00 AM_16CS317
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Blockchain Technology Lab\nSubject Co
@@ -41,41 +54,43 @@ LOCATION:CL01/CL02
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:16CS318 (16CS318)
+SUMMARY:Fundamentals of Computing for Data Science Lab (16CS318)
 DTSTART;TZID=Asia/Kolkata:20260727T080000
 DTEND;TZID=Asia/Kolkata:20260727T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_08:00 AM_16CS318
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 16CS318\nSubject Code: 16CS318\nTeacher: Mr. Megh Sin
- ghal\, Dr. Amit Mishra\nVenue: CL03\nType: P\nBatches: B10\, B11\, B12\, B
- 13\, B14\, G1\, G2
+DESCRIPTION:Subject: Fundamentals of Computing for Data Science Lab\nSubje
+ ct Code: 16CS318\nTeacher: Mr. Megh Singhal\, Dr. Amit Mishra\nVenue: CL03
+ \nType: P\nBatches: B10\, B11\, B12\, B13\, B14\, G1\, G2
 LOCATION:CL03
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:16CS319 (16CS319)
+SUMMARY:Fundamentals of Sensor Technology and Android Programming Lab (16C
+ S319)
 DTSTART;TZID=Asia/Kolkata:20260727T080000
 DTEND;TZID=Asia/Kolkata:20260727T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_08:00 AM_16CS319
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 16CS319\nSubject Code: 16CS319\nTeacher: Dr. Arpita J
- adav Bhatt\, Dr. Hema N\, JAT\nVenue: CL04\nType: P\nBatches: B10\, B11\, 
- B12\, B13\, B14\, G1\, G2
+DESCRIPTION:Subject: Fundamentals of Sensor Technology and Android Program
+ ming Lab\nSubject Code: 16CS319\nTeacher: Dr. Arpita Jadav Bhatt\, Dr. Hem
+ a N\, JAT\nVenue: CL04\nType: P\nBatches: B10\, B11\, B12\, B13\, B14\, G1
+ \, G2
 LOCATION:CL04
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:16CS320 (16CS320)
+SUMMARY:Fundamentals of Graph Theory Lab (16CS320)
 DTSTART;TZID=Asia/Kolkata:20260727T080000
 DTEND;TZID=Asia/Kolkata:20260727T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_08:00 AM_16CS320
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 16CS320\nSubject Code: 16CS320\nTeacher: Dr. Anuja Sh
- ukla\, Dr. Tarun Agrawal\nVenue: CL06/CL07\nType: P\nBatches: B10\, B11\, 
- B12\, B13\, B14\, G1\, G2
+DESCRIPTION:Subject: Fundamentals of Graph Theory Lab\nSubject Code: 16CS3
+ 20\nTeacher: Dr. Anuja Shukla\, Dr. Tarun Agrawal\nVenue: CL06/CL07\nType:
+  P\nBatches: B10\, B11\, B12\, B13\, B14\, G1\, G2
 LOCATION:CL06/CL07
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -83,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:Computer Vision Workshop (24B11CS351)
 DTSTART;TZID=Asia/Kolkata:20260727T120000
 DTEND;TZID=Asia/Kolkata:20260727T130000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_12:00 PM_24B11CS351
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Vision Workshop\nSubject Code: 24B11CS351\nT
@@ -94,251 +109,263 @@ LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:24B11CS353 (24B11CS353)
+SUMMARY:Data Science and Data Analytics Workshop-2 (24B11CS353)
 DTSTART;TZID=Asia/Kolkata:20260727T120000
 DTEND;TZID=Asia/Kolkata:20260727T130000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Monday_12:00 PM_24B11CS353
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 24B11CS353\nSubject Code: 24B11CS353\nTeacher: Dr. Am
- it Mishra\nVenue: CS3\nType: L\nBatches: A\, A1\, A2\, A3\, A4\, A5\, A6\,
-  A7\, A8\, A10\, A15\, A16\, A17\, A18\, B1\, B2\, B3\, B4\, B5\, B6\, B7\
- , B8\, B9\, B10\, B11\, B12\, B13\, B14\, C1\, C2\, C3\, G1\, G2
+DESCRIPTION:Subject: Data Science and Data Analytics Workshop-2\nSubject C
+ ode: 24B11CS353\nTeacher: Dr. Amit Mishra\nVenue: CS3\nType: L\nBatches: A
+ \, A1\, A2\, A3\, A4\, A5\, A6\, A7\, A8\, A10\, A15\, A16\, A17\, A18\, B
+ 1\, B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, 
+ C1\, C2\, C3\, G1\, G2
 LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HS311 (HS311)
-DTSTART;TZID=Asia/Kolkata:20260727T140000
-DTEND;TZID=Asia/Kolkata:20260727T150000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Monday_02:00 PM_HS311
+SUMMARY:Operating Systems (CS312)
+DTSTART;TZID=Asia/Kolkata:20260728T100000
+DTEND;TZID=Asia/Kolkata:20260728T110000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Tuesday_10:00 AM_CS312
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: HS311\nSubject Code: HS311\nTeacher: Dr. Ila Joshi\nV
- enue: CS1\nType: L\nBatches: B9\, B10
-LOCATION:CS1
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PH534 (PH534)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH534
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH534\nSubject Code: PH534\nTeacher: Prof. Rakesh Kum
- ar Dwivedi\nVenue: G5\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\
- , A10\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\,
-  B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Operating Systems\nSubject Code: CS312\nTeacher: Dr. 
+ Prakash Kumar\nVenue: G5\nType: L\nBatches: B9\, B10
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH532 (PH532)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Computer Networks (CS313)
+DTSTART;TZID=Asia/Kolkata:20260728T110000
+DTEND;TZID=Asia/Kolkata:20260728T120000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Tuesday_11:00 AM_CS313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Networks\nSubject Code: CS313\nTeacher: Ms. 
+ Amarjeet Kaur\nVenue: G5\nType: L\nBatches: B9\, B10
+LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operating Systems Lab (15CS312)
+DTSTART;TZID=Asia/Kolkata:20260728T130000
+DTEND;TZID=Asia/Kolkata:20260728T150000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Tuesday_01:00 PM_15CS312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Operating Systems Lab\nSubject Code: 15CS312\nTeacher
+ : UMF\nVenue: CL09\nType: P\nBatches: B10
+LOCATION:CL09
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer Networks (CS313)
+DTSTART;TZID=Asia/Kolkata:20260728T140000
+DTEND;TZID=Asia/Kolkata:20260728T150000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Tuesday_02:00 PM_CS313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer Networks\nSubject Code: CS313\nTeacher: Dr. 
+ Meenal\nVenue: TS12\nType: T\nBatches: B10
+LOCATION:TS12
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biomaterial Science (PH534)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH534
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Biomaterial Science\nSubject Code: PH534\nTeacher: Pr
+ of. Rakesh Kumar Dwivedi\nVenue: G5\nType: L\nBatches: B11\, A3\, B14\, A4
+ \, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6
+ \, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Material Science (PH532)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH532
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH532\nSubject Code: PH532\nTeacher: Dr. Ashish Batna
- gar\nVenue: CS1\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A10\
- , B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\, 
- B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Material Science\nSubject Code: PH532\nTeacher: Dr. A
+ shish Batnagar\nVenue: CS1\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\, B
+ 5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\, A
+ 16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH533 (PH533)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Laser Technology and Applications (PH533)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH533
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH533\nSubject Code: PH533\nTeacher: Dr. Navneet K. S
- harma\nVenue: CS3\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A1
- 0\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\
- , B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Laser Technology and Applications\nSubject Code: PH53
+ 3\nTeacher: Dr. Navneet K. Sharma\nVenue: CS3\nType: L\nBatches: B11\, A3\
+ , B14\, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8
+ \, A8\, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH531 (PH531)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Quantum Mechanics for Engineers (PH531)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH531
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH531\nSubject Code: PH531\nTeacher: Dr. Anuraj Panwa
- r\nVenue: CS4\nType: L\nBatches: B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\,
-  B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Quantum Mechanics for Engineers\nSubject Code: PH531\
+ nTeacher: Dr. Anuraj Panwar\nVenue: CS4\nType: L\nBatches: B2\, B6\, B3\, 
+ B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH535 (PH535)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Nuclear Science and Engineering (PH535)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH535
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH535\nSubject Code: PH535\nTeacher: 1MTR\nVenue: CR3
- 0\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A10\, B13\, A16\, 
- A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\, B6\, A4\, A2\,
-  B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Nuclear Science and Engineering\nSubject Code: PH535\
+ nTeacher: 1MTR\nVenue: CR30\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\, 
+ B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\, 
+ A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CR30
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Engineering Materials and Technology (PH311)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_PH311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Engineering Materials and Technology\nSubject Code: P
- H311\nTeacher: Dr. Radha Krishan Gopal\nVenue: CR325\nType: L\nBatches: B7
- \, B11\, A\, A6\, B1\, B8\, B5\, A10\, B13\, A16\, A7\, A1\, A15\, B12\, A
- 17\, B14\, A5\, B10\, B3\, B9\, B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
+ H311\nTeacher: Dr. Radha Krishan Gopal\nVenue: CR325\nType: L\nBatches: B1
+ 1\, A3\, B14\, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, 
+ B7\, B8\, A8\, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CR325
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MATRIX COMPUTATIONS (16B1NMA533)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Matrix Computations (16B1NMA533)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_16B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: MATRIX COMPUTATIONS\nSubject Code: 16B1NMA533\nTeache
- r: Dr. Manish Kumar Bansal\nVenue: CR425\nType: L\nBatches: A5\, B7\, B11\
- , B10\, B1\, A6\, A\, C2\, B8\, B5\, B3\, C1\, A10\, B13\, A16\, B9\, B14\
- , A7\, B2\, A8\, A1\, B6\, A4\, A2\, B4\, A15\, B12\, A18\, A17\, A3\, C3
+DESCRIPTION:Subject: Matrix Computations\nSubject Code: 16B1NMA533\nTeache
+ r: Dr. Manish Kumar Bansal\nVenue: CR425\nType: L\nBatches: A18\, A5\, B6\
+ , B11\, C3\, B9\, B14\, A3\, B1\, C2\, A4\, A7\, B7\, B5\, B8\, A8\, A6\, 
+ A1\, A2\, A16\, B2\, B3\, C1\, B4\, B10\, A17\, A10\, B12\, A\, A15\, B13
 LOCATION:CR425
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THEORY OF NUMBERS (16B1NMA731)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Theory of Numbers (16B1NMA731)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_16B1NMA731
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: THEORY OF NUMBERS\nSubject Code: 16B1NMA731\nTeacher:
-  New Faculty 3\nVenue: CR501\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B
- 8\, B5\, A10\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3
- \, B9\, B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Theory of Numbers\nSubject Code: 16B1NMA731\nTeacher:
+  New Faculty 3\nVenue: CR501\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\,
+  B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\,
+  A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CR501
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BASIC NUMERICAL METHODS (17B1NMA531)
-DTSTART;TZID=Asia/Kolkata:20260721T080000
-DTEND;TZID=Asia/Kolkata:20260721T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Basic Numerical Methods (17B1NMA531)
+DTSTART;TZID=Asia/Kolkata:20260728T080000
+DTEND;TZID=Asia/Kolkata:20260728T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_08:00 AM_17B1NMA531
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: BASIC NUMERICAL METHODS\nSubject Code: 17B1NMA531\nTe
- acher: New Faculty 5\nVenue: CR526\nType: L\nBatches: A5\, B7\, B11\, B10\
- , B1\, A6\, A\, C2\, B8\, B5\, B3\, C1\, A10\, B13\, A16\, B9\, B14\, A7\,
-  B2\, A8\, A1\, B6\, A4\, A2\, B4\, A15\, B12\, A18\, A17\, A3\, C3
+DESCRIPTION:Subject: Basic Numerical Methods\nSubject Code: 17B1NMA531\nTe
+ acher: New Faculty 5\nVenue: CR526\nType: L\nBatches: A18\, A5\, B6\, B11\
+ , C3\, B9\, B14\, A3\, B1\, C2\, A4\, A7\, B7\, B5\, B8\, A8\, A6\, A1\, A
+ 2\, A16\, B2\, B3\, C1\, B4\, B10\, A17\, A10\, B12\, A\, A15\, B13
 LOCATION:CR526
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Soft Computing Fundamentals Lab (CS311)
-DTSTART;TZID=Asia/Kolkata:20260721T090000
-DTEND;TZID=Asia/Kolkata:20260721T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Soft Computing Fundamentals (CS311)
+DTSTART;TZID=Asia/Kolkata:20260728T090000
+DTEND;TZID=Asia/Kolkata:20260728T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_09:00 AM_CS311
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Soft Computing Fundamentals Lab\nSubject Code: CS311\
- nTeacher: Dr. Ankita Verma\nVenue: G2\nType: L\nBatches: B7\, B10\, B11\, 
- B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Soft Computing Fundamentals\nSubject Code: CS311\nTea
+ cher: Dr. Ankita Verma\nVenue: G2\nType: L\nBatches: B2\, B6\, B3\, B11\, 
+ B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:G2
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Computer and Cyber Security Fundamentals Lab (CS312)
-DTSTART;TZID=Asia/Kolkata:20260721T090000
-DTEND;TZID=Asia/Kolkata:20260721T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Computer and Cyber Security Fundamentals (CS312)
+DTSTART;TZID=Asia/Kolkata:20260728T090000
+DTEND;TZID=Asia/Kolkata:20260728T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_09:00 AM_CS312
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Computer and Cyber Security Fundamentals Lab\nSubject
-  Code: CS312\nTeacher: Dr. Kapil Madan\nVenue: G5\nType: L\nBatches: B7\, 
- B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Computer and Cyber Security Fundamentals\nSubject Cod
+ e: CS312\nTeacher: Dr. Kapil Madan\nVenue: G5\nType: L\nBatches: B2\, B6\,
+  B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data Mining and Data Warehousing Lab (CS313)
-DTSTART;TZID=Asia/Kolkata:20260721T090000
-DTEND;TZID=Asia/Kolkata:20260721T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Data Mining and Data Warehousing (CS313)
+DTSTART;TZID=Asia/Kolkata:20260728T090000
+DTEND;TZID=Asia/Kolkata:20260728T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_09:00 AM_CS313
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: C
- S313\nTeacher: Ms. Sayani\nVenue: CS1\nType: L\nBatches: B7\, B10\, B11\, 
- B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Data Mining and Data Warehousing\nSubject Code: CS313
+ \nTeacher: Ms. Sayani\nVenue: CS1\nType: L\nBatches: B2\, B6\, B3\, B11\, 
+ B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fundamentals of Agile Software Development Lab (CS314)
-DTSTART;TZID=Asia/Kolkata:20260721T090000
-DTEND;TZID=Asia/Kolkata:20260721T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Fundamentals of Agile Software Development (CS314)
+DTSTART;TZID=Asia/Kolkata:20260728T090000
+DTEND;TZID=Asia/Kolkata:20260728T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_09:00 AM_CS314
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of Agile Software Development Lab\nSubje
- ct Code: CS314\nTeacher: Dr. Indu Chawla\nVenue: CS3\nType: L\nBatches: B7
- \, B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Fundamentals of Agile Software Development\nSubject C
+ ode: CS314\nTeacher: Dr. Indu Chawla\nVenue: CS3\nType: L\nBatches: B2\, B
+ 6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fundamentals of IoT Analytics Lab (CS315)
-DTSTART;TZID=Asia/Kolkata:20260721T090000
-DTEND;TZID=Asia/Kolkata:20260721T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Fundamentals of IoT Analytics (CS315)
+DTSTART;TZID=Asia/Kolkata:20260728T090000
+DTEND;TZID=Asia/Kolkata:20260728T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_09:00 AM_CS315
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of IoT Analytics Lab\nSubject Code: CS31
- 5\nTeacher: Sumeshwar Singh\nVenue: CS4\nType: L\nBatches: B7\, B10\, B11\
- , B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Fundamentals of IoT Analytics\nSubject Code: CS315\nT
+ eacher: Sumeshwar Singh\nVenue: CS4\nType: L\nBatches: B2\, B6\, B3\, B11\
+ , B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Computer and Cyber Security Fundamentals Lab (CS312)
-DTSTART;TZID=Asia/Kolkata:20260721T100000
-DTEND;TZID=Asia/Kolkata:20260721T110000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Tuesday_10:00 AM_CS312
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Computer and Cyber Security Fundamentals Lab\nSubject
-  Code: CS312\nTeacher: Dr. Prakash Kumar\nVenue: G5\nType: L\nBatches: B9\
- , B10
-LOCATION:G5
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Mining and Data Warehousing Lab (CS313)
-DTSTART;TZID=Asia/Kolkata:20260721T110000
-DTEND;TZID=Asia/Kolkata:20260721T120000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Tuesday_11:00 AM_CS313
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: C
- S313\nTeacher: Ms. Amarjeet Kaur\nVenue: G5\nType: L\nBatches: B9\, B10
-LOCATION:G5
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:PH412 (PH412)
-DTSTART;TZID=Asia/Kolkata:20260721T120000
-DTEND;TZID=Asia/Kolkata:20260721T130000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260728T120000
+DTEND;TZID=Asia/Kolkata:20260728T130000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_12:00 PM_PH412
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: PH412\nSubject Code: PH412\nTeacher: Dr. Radha Krisha
@@ -350,9 +377,9 @@ X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Computer Vision Workshop (24B11CS351)
-DTSTART;TZID=Asia/Kolkata:20260721T120000
-DTEND;TZID=Asia/Kolkata:20260721T130000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260728T120000
+DTEND;TZID=Asia/Kolkata:20260728T130000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_12:00 PM_24B11CS351
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Vision Workshop\nSubject Code: 24B11CS351\nT
@@ -363,48 +390,25 @@ LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:24B11CS353 (24B11CS353)
-DTSTART;TZID=Asia/Kolkata:20260721T120000
-DTEND;TZID=Asia/Kolkata:20260721T130000
-DTSTAMP:20260720T080152Z
+SUMMARY:Data Science and Data Analytics Workshop-2 (24B11CS353)
+DTSTART;TZID=Asia/Kolkata:20260728T120000
+DTEND;TZID=Asia/Kolkata:20260728T130000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_12:00 PM_24B11CS353
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 24B11CS353\nSubject Code: 24B11CS353\nTeacher: Dr. Am
- it Mishra\nVenue: CS4\nType: L\nBatches: A\, A1\, A2\, A3\, A4\, A5\, A6\,
-  A7\, A8\, A10\, A15\, A16\, A17\, A18\, B1\, B2\, B3\, B4\, B5\, B6\, B7\
- , B8\, B9\, B10\, B11\, B12\, B13\, B14\, C1\, C2\, C3\, G1\, G2
+DESCRIPTION:Subject: Data Science and Data Analytics Workshop-2\nSubject C
+ ode: 24B11CS353\nTeacher: Dr. Amit Mishra\nVenue: CS4\nType: L\nBatches: A
+ \, A1\, A2\, A3\, A4\, A5\, A6\, A7\, A8\, A10\, A15\, A16\, A17\, A18\, B
+ 1\, B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, 
+ C1\, C2\, C3\, G1\, G2
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Operating Systems Lab (15CS312)
-DTSTART;TZID=Asia/Kolkata:20260721T130000
-DTEND;TZID=Asia/Kolkata:20260721T150000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Tuesday_01:00 PM_15CS312
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Operating Systems Lab\nSubject Code: 15CS312\nTeacher
- : UMF\nVenue: CL09\nType: P\nBatches: B10
-LOCATION:CL09
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Mining and Data Warehousing Lab (CS313)
-DTSTART;TZID=Asia/Kolkata:20260721T140000
-DTEND;TZID=Asia/Kolkata:20260721T150000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Tuesday_02:00 PM_CS313
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: C
- S313\nTeacher: Dr. Meenal\nVenue: TS12\nType: T\nBatches: B10
-LOCATION:TS12
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Computer Vision Workshop Lab (24B15CS352)
-DTSTART;TZID=Asia/Kolkata:20260721T160000
-DTEND;TZID=Asia/Kolkata:20260721T180000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260728T160000
+DTEND;TZID=Asia/Kolkata:20260728T180000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_04:00 PM_24B15CS352
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Vision Workshop Lab\nSubject Code: 24B15CS35
@@ -415,102 +419,103 @@ LOCATION:CL22
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:24B15CS354 (24B15CS354)
-DTSTART;TZID=Asia/Kolkata:20260721T160000
-DTEND;TZID=Asia/Kolkata:20260721T180000
-DTSTAMP:20260720T080152Z
+SUMMARY:Data Science and Data Analytics Workshop-2 Lab (24B15CS354)
+DTSTART;TZID=Asia/Kolkata:20260728T160000
+DTEND;TZID=Asia/Kolkata:20260728T180000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Tuesday_04:00 PM_24B15CS354
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 24B15CS354\nSubject Code: 24B15CS354\nTeacher: Dr. Am
- it Mishra\nVenue: CL23\nType: P\nBatches: A\, A1\, A2\, A3\, A4\, A5\, A6\
- , A7\, A8\, A10\, A15\, A16\, A17\, A18\, B1\, B2\, B3\, B4\, B5\, B6\, B7
- \, B8\, B9\, B10\, B11\, B12\, B13\, B14\, C1\, C2\, C3\, G1\, G2
+DESCRIPTION:Subject: Data Science and Data Analytics Workshop-2 Lab\nSubje
+ ct Code: 24B15CS354\nTeacher: Dr. Amit Mishra\nVenue: CL23\nType: P\nBatch
+ es: A\, A1\, A2\, A3\, A4\, A5\, A6\, A7\, A8\, A10\, A15\, A16\, A17\, A1
+ 8\, B1\, B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B
+ 14\, C1\, C2\, C3\, G1\, G2
 LOCATION:CL23
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HS311 (HS311)
-DTSTART;TZID=Asia/Kolkata:20260722T080000
-DTEND;TZID=Asia/Kolkata:20260722T090000
-DTSTAMP:20260720T080152Z
+SUMMARY:Indian Constitution & Traditional Knowledge (HS311)
+DTSTART;TZID=Asia/Kolkata:20260729T080000
+DTEND;TZID=Asia/Kolkata:20260729T090000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_08:00 AM_HS311
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: HS311\nSubject Code: HS311\nTeacher: Dr. Ila Joshi\nV
- enue: G2\nType: L\nBatches: B9\, B10
+DESCRIPTION:Subject: Indian Constitution & Traditional Knowledge\nSubject 
+ Code: HS311\nTeacher: Dr. Ila Joshi\nVenue: G2\nType: L\nBatches: B9\, B10
 LOCATION:G2
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fundamentals of Image Processing and Computer Vision Lab (CS316)
-DTSTART;TZID=Asia/Kolkata:20260722T090000
-DTEND;TZID=Asia/Kolkata:20260722T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Fundamentals of Image Processing and Computer Vision (CS316)
+DTSTART;TZID=Asia/Kolkata:20260729T090000
+DTEND;TZID=Asia/Kolkata:20260729T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_09:00 AM_CS316
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision 
- Lab\nSubject Code: CS316\nTeacher: Ms. Neha\nVenue: G2\nType: L\nBatches: 
- B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision\
+ nSubject Code: CS316\nTeacher: Ms. Neha\nVenue: G2\nType: L\nBatches: B2\,
+  B6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:G2
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fundamentals of Blockchain Technology Lab (CS317)
-DTSTART;TZID=Asia/Kolkata:20260722T090000
-DTEND;TZID=Asia/Kolkata:20260722T100000
-DTSTAMP:20260720T080152Z
+SUMMARY:Fundamentals of Blockchain Technology (CS317)
+DTSTART;TZID=Asia/Kolkata:20260729T090000
+DTEND;TZID=Asia/Kolkata:20260729T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_09:00 AM_CS317
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of Blockchain Technology Lab\nSubject Co
- de: CS317\nTeacher: Dr. Raghu Vamsi\nVenue: G5\nType: L\nBatches: B7\, B10
- \, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Fundamentals of Blockchain Technology\nSubject Code: 
+ CS317\nTeacher: Dr. Raghu Vamsi\nVenue: G5\nType: L\nBatches: B2\, B6\, B3
+ \, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fundamentals of Computing for Data Science (CS318)
-DTSTART;TZID=Asia/Kolkata:20260722T090000
-DTEND;TZID=Asia/Kolkata:20260722T100000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T090000
+DTEND;TZID=Asia/Kolkata:20260729T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_09:00 AM_CS318
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Computing for Data Science\nSubject C
- ode: CS318\nTeacher: Dr. Amit Mishra\nVenue: CS1\nType: L\nBatches: B7\, B
- 10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+ ode: CS318\nTeacher: Dr. Amit Mishra\nVenue: CS1\nType: L\nBatches: B2\, B
+ 6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fundamentals of Sensor Technology and Android Programming (CS319)
-DTSTART;TZID=Asia/Kolkata:20260722T090000
-DTEND;TZID=Asia/Kolkata:20260722T100000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T090000
+DTEND;TZID=Asia/Kolkata:20260729T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_09:00 AM_CS319
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Sensor Technology and Android Program
  ming\nSubject Code: CS319\nTeacher: Dr. Hema N\nVenue: CS3\nType: L\nBatch
- es: B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, 
- B2
+ es: B2\, B6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B
+ 13
 LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fundamentals of Graph Theory (CS320)
-DTSTART;TZID=Asia/Kolkata:20260722T090000
-DTEND;TZID=Asia/Kolkata:20260722T100000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T090000
+DTEND;TZID=Asia/Kolkata:20260729T100000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_09:00 AM_CS320
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Graph Theory\nSubject Code: CS320\nTe
- acher: Dr. Tarun Agrawal\nVenue: CS4\nType: L\nBatches: B7\, B10\, B11\, B
- 1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+ acher: Dr. Tarun Agrawal\nVenue: CS4\nType: L\nBatches: B2\, B6\, B3\, B11
+ \, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PH412 (PH412)
-DTSTART;TZID=Asia/Kolkata:20260722T120000
-DTEND;TZID=Asia/Kolkata:20260722T130000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T120000
+DTEND;TZID=Asia/Kolkata:20260729T130000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_12:00 PM_PH412
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: PH412\nSubject Code: PH412\nTeacher: Dr. Radha Krisha
@@ -522,9 +527,9 @@ X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Computer Vision Workshop (24B11CS351)
-DTSTART;TZID=Asia/Kolkata:20260722T120000
-DTEND;TZID=Asia/Kolkata:20260722T130000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T120000
+DTEND;TZID=Asia/Kolkata:20260729T130000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_12:00 PM_24B11CS351
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Vision Workshop\nSubject Code: 24B11CS351\nT
@@ -535,24 +540,25 @@ LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:24B11CS353 (24B11CS353)
-DTSTART;TZID=Asia/Kolkata:20260722T120000
-DTEND;TZID=Asia/Kolkata:20260722T130000
-DTSTAMP:20260720T080152Z
+SUMMARY:Data Science and Data Analytics Workshop-2 (24B11CS353)
+DTSTART;TZID=Asia/Kolkata:20260729T120000
+DTEND;TZID=Asia/Kolkata:20260729T130000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_12:00 PM_24B11CS353
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 24B11CS353\nSubject Code: 24B11CS353\nTeacher: Dr. Am
- it Mishra\nVenue: CS4\nType: L\nBatches: A\, A1\, A2\, A3\, A4\, A5\, A6\,
-  A7\, A8\, A10\, A15\, A16\, A17\, A18\, B1\, B2\, B3\, B4\, B5\, B6\, B7\
- , B8\, B9\, B10\, B11\, B12\, B13\, B14\, C1\, C2\, C3\, G1\, G2
+DESCRIPTION:Subject: Data Science and Data Analytics Workshop-2\nSubject C
+ ode: 24B11CS353\nTeacher: Dr. Amit Mishra\nVenue: CS4\nType: L\nBatches: A
+ \, A1\, A2\, A3\, A4\, A5\, A6\, A7\, A8\, A10\, A15\, A16\, A17\, A18\, B
+ 1\, B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B14\, 
+ C1\, C2\, C3\, G1\, G2
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fundamentals of Image Processing and Computer Vision Lab (16CS316)
-DTSTART;TZID=Asia/Kolkata:20260722T140000
-DTEND;TZID=Asia/Kolkata:20260722T160000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T140000
+DTEND;TZID=Asia/Kolkata:20260729T160000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_02:00 PM_16CS316
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision 
@@ -564,9 +570,9 @@ X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fundamentals of Agile Software Development Lab (16CS314)
-DTSTART;TZID=Asia/Kolkata:20260722T140000
-DTEND;TZID=Asia/Kolkata:20260722T160000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T140000
+DTEND;TZID=Asia/Kolkata:20260729T160000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_02:00 PM_16CS314
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Agile Software Development Lab\nSubje
@@ -577,9 +583,9 @@ X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Computer and Cyber Security Fundamentals Lab (16CS312)
-DTSTART;TZID=Asia/Kolkata:20260722T140000
-DTEND;TZID=Asia/Kolkata:20260722T160000
-DTSTAMP:20260720T080152Z
+DTSTART;TZID=Asia/Kolkata:20260729T140000
+DTEND;TZID=Asia/Kolkata:20260729T160000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_02:00 PM_16CS312
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer and Cyber Security Fundamentals Lab\nSubject
@@ -589,67 +595,80 @@ LOCATION:CL22
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:24B15CS354 (24B15CS354)
-DTSTART;TZID=Asia/Kolkata:20260722T160000
-DTEND;TZID=Asia/Kolkata:20260722T180000
-DTSTAMP:20260720T080152Z
+SUMMARY:Data Science and Data Analytics Workshop-2 Lab (24B15CS354)
+DTSTART;TZID=Asia/Kolkata:20260729T160000
+DTEND;TZID=Asia/Kolkata:20260729T180000
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Wednesday_04:00 PM_24B15CS354
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: 24B15CS354\nSubject Code: 24B15CS354\nTeacher: Dr. Am
- it Mishra\nVenue: CL21\nType: P\nBatches: A\, A1\, A2\, A3\, A4\, A5\, A6\
- , A7\, A8\, A10\, A15\, A16\, A17\, A18\, B1\, B2\, B3\, B4\, B5\, B6\, B7
- \, B8\, B9\, B10\, B11\, B12\, B13\, B14\, C1\, C2\, C3\, G1\, G2
+DESCRIPTION:Subject: Data Science and Data Analytics Workshop-2 Lab\nSubje
+ ct Code: 24B15CS354\nTeacher: Dr. Amit Mishra\nVenue: CL21\nType: P\nBatch
+ es: A\, A1\, A2\, A3\, A4\, A5\, A6\, A7\, A8\, A10\, A15\, A16\, A17\, A1
+ 8\, B1\, B2\, B3\, B4\, B5\, B6\, B7\, B8\, B9\, B10\, B11\, B12\, B13\, B
+ 14\, C1\, C2\, C3\, G1\, G2
 LOCATION:CL21
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Computer and Cyber Security Fundamentals Lab (CS312)
+SUMMARY:Operating Systems (CS312)
 DTSTART;TZID=Asia/Kolkata:20260723T100000
 DTEND;TZID=Asia/Kolkata:20260723T110000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_10:00 AM_CS312
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Computer and Cyber Security Fundamentals Lab\nSubject
-  Code: CS312\nTeacher: Dr. Prakash Kumar\nVenue: G5\nType: L\nBatches: B9\
- , B10
+DESCRIPTION:Subject: Operating Systems\nSubject Code: CS312\nTeacher: Dr. 
+ Prakash Kumar\nVenue: G5\nType: L\nBatches: B9\, B10
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data Mining and Data Warehousing Lab (CS313)
+SUMMARY:Computer Networks (CS313)
 DTSTART;TZID=Asia/Kolkata:20260723T110000
 DTEND;TZID=Asia/Kolkata:20260723T120000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_11:00 AM_CS313
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: C
- S313\nTeacher: Ms. Amarjeet Kaur\nVenue: G5\nType: L\nBatches: B9\, B10
+DESCRIPTION:Subject: Computer Networks\nSubject Code: CS313\nTeacher: Ms. 
+ Amarjeet Kaur\nVenue: G5\nType: L\nBatches: B9\, B10
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fundamentals of Image Processing and Computer Vision Lab (CS316)
+SUMMARY:Indian Constitution & Traditional Knowledge (HS311)
+DTSTART;TZID=Asia/Kolkata:20260723T150000
+DTEND;TZID=Asia/Kolkata:20260723T160000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Thursday_03:00 PM_HS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Indian Constitution & Traditional Knowledge\nSubject 
+ Code: HS311\nTeacher: Dr. Ila Joshi\nVenue: CS1\nType: L\nBatches: B9\, B1
+ 0
+LOCATION:CS1
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fundamentals of Image Processing and Computer Vision (CS316)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T090000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_08:00 AM_CS316
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision 
- Lab\nSubject Code: CS316\nTeacher: Ms. Neha\nVenue: G2\nType: L\nBatches: 
- B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Fundamentals of Image Processing and Computer Vision\
+ nSubject Code: CS316\nTeacher: Ms. Neha\nVenue: G2\nType: L\nBatches: B2\,
+  B6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:G2
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fundamentals of Blockchain Technology Lab (CS317)
+SUMMARY:Fundamentals of Blockchain Technology (CS317)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T090000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_08:00 AM_CS317
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of Blockchain Technology Lab\nSubject Co
- de: CS317\nTeacher: Dr. Raghu Vamsi\nVenue: G5\nType: L\nBatches: B7\, B10
- \, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Fundamentals of Blockchain Technology\nSubject Code: 
+ CS317\nTeacher: Dr. Raghu Vamsi\nVenue: G5\nType: L\nBatches: B2\, B6\, B3
+ \, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -657,12 +676,12 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Computing for Data Science (CS318)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T090000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_08:00 AM_CS318
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Computing for Data Science\nSubject C
- ode: CS318\nTeacher: Dr. Amit Mishra\nVenue: CS1\nType: L\nBatches: B7\, B
- 10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+ ode: CS318\nTeacher: Dr. Amit Mishra\nVenue: CS1\nType: L\nBatches: B2\, B
+ 6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -670,13 +689,13 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Sensor Technology and Android Programming (CS319)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T090000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_08:00 AM_CS319
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Sensor Technology and Android Program
  ming\nSubject Code: CS319\nTeacher: Dr. Hema N\nVenue: CS3\nType: L\nBatch
- es: B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, 
- B2
+ es: B2\, B6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B
+ 13
 LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -684,81 +703,81 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of Graph Theory (CS320)
 DTSTART;TZID=Asia/Kolkata:20260723T080000
 DTEND;TZID=Asia/Kolkata:20260723T090000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_08:00 AM_CS320
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of Graph Theory\nSubject Code: CS320\nTe
- acher: Dr. Tarun Agrawal\nVenue: CS4\nType: L\nBatches: B7\, B10\, B11\, B
- 1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
+ acher: Dr. Tarun Agrawal\nVenue: CS4\nType: L\nBatches: B2\, B6\, B3\, B11
+ \, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH534 (PH534)
+SUMMARY:Biomaterial Science (PH534)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_PH534
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH534\nSubject Code: PH534\nTeacher: Prof. Rakesh Kum
- ar Dwivedi\nVenue: G5\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\
- , A10\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\,
-  B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Biomaterial Science\nSubject Code: PH534\nTeacher: Pr
+ of. Rakesh Kumar Dwivedi\nVenue: G5\nType: L\nBatches: B11\, A3\, B14\, A4
+ \, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6
+ \, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH532 (PH532)
+SUMMARY:Material Science (PH532)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_PH532
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH532\nSubject Code: PH532\nTeacher: Dr. Ashish Batna
- gar\nVenue: CS1\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A10\
- , B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\, 
- B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Material Science\nSubject Code: PH532\nTeacher: Dr. A
+ shish Batnagar\nVenue: CS1\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\, B
+ 5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\, A
+ 16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CS1
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH533 (PH533)
+SUMMARY:Laser Technology and Applications (PH533)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_PH533
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH533\nSubject Code: PH533\nTeacher: Dr. Navneet K. S
- harma\nVenue: CS3\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A1
- 0\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\
- , B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Laser Technology and Applications\nSubject Code: PH53
+ 3\nTeacher: Dr. Navneet K. Sharma\nVenue: CS3\nType: L\nBatches: B11\, A3\
+ , B14\, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8
+ \, A8\, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CS3
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH535 (PH535)
+SUMMARY:Nuclear Science and Engineering (PH535)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_PH535
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH535\nSubject Code: PH535\nTeacher: Dr. Manoj Tripat
- hi\nVenue: CS4\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A10\,
-  B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\, B
- 6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Nuclear Science and Engineering\nSubject Code: PH535\
+ nTeacher: Dr. Manoj Tripathi\nVenue: CS4\nType: L\nBatches: B11\, A3\, B14
+ \, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8
+ \, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PH531 (PH531)
+SUMMARY:Quantum Mechanics for Engineers (PH531)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_PH531
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH531\nSubject Code: PH531\nTeacher: Dr. Anuraj Panwa
- r\nVenue: CS2\nType: L\nBatches: B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\,
-  B12\, B13\, B9\, B14\, B3\, B2
+DESCRIPTION:Subject: Quantum Mechanics for Engineers\nSubject Code: PH531\
+ nTeacher: Dr. Anuraj Panwar\nVenue: CS2\nType: L\nBatches: B2\, B6\, B3\, 
+ B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
 LOCATION:CS2
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -766,55 +785,55 @@ BEGIN:VEVENT
 SUMMARY:Engineering Materials and Technology (PH311)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_PH311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Engineering Materials and Technology\nSubject Code: P
- H311\nTeacher: Dr. Radha Krishan Gopal\nVenue: CR401\nType: L\nBatches: B7
- \, B11\, A\, A6\, B1\, B8\, B5\, A10\, B13\, A16\, A7\, A1\, A15\, B12\, A
- 17\, B14\, A5\, B10\, B3\, B9\, B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
+ H311\nTeacher: Dr. Radha Krishan Gopal\nVenue: CR401\nType: L\nBatches: B1
+ 1\, A3\, B14\, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, 
+ B7\, B8\, A8\, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:CR401
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MATRIX COMPUTATIONS (16B1NMA533)
+SUMMARY:Matrix Computations (16B1NMA533)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_16B1NMA533
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: MATRIX COMPUTATIONS\nSubject Code: 16B1NMA533\nTeache
- r: Dr. Manish Kumar Bansal\nVenue: FF7\nType: L\nBatches: A5\, B7\, B11\, 
- B10\, B1\, A6\, A\, C2\, B8\, B5\, B3\, C1\, A10\, B13\, A16\, B9\, B14\, 
- A7\, B2\, A8\, A1\, B6\, A4\, A2\, B4\, A15\, B12\, A18\, A17\, A3\, C3
+DESCRIPTION:Subject: Matrix Computations\nSubject Code: 16B1NMA533\nTeache
+ r: Dr. Manish Kumar Bansal\nVenue: FF7\nType: L\nBatches: A18\, A5\, B6\, 
+ B11\, C3\, B9\, B14\, A3\, B1\, C2\, A4\, A7\, B7\, B5\, B8\, A8\, A6\, A1
+ \, A2\, A16\, B2\, B3\, C1\, B4\, B10\, A17\, A10\, B12\, A\, A15\, B13
 LOCATION:FF7
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THEORY OF NUMBERS (16B1NMA731)
+SUMMARY:Theory of Numbers (16B1NMA731)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_16B1NMA731
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: THEORY OF NUMBERS\nSubject Code: 16B1NMA731\nTeacher:
-  New Faculty 3\nVenue: FF8\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\
- , B5\, A10\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\,
-  B9\, B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
+DESCRIPTION:Subject: Theory of Numbers\nSubject Code: 16B1NMA731\nTeacher:
+  New Faculty 3\nVenue: FF8\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\, B
+ 5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\, A
+ 16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
 LOCATION:FF8
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BASIC NUMERICAL METHODS (17B1NMA531)
+SUMMARY:Basic Numerical Methods (17B1NMA531)
 DTSTART;TZID=Asia/Kolkata:20260723T090000
 DTEND;TZID=Asia/Kolkata:20260723T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_09:00 AM_17B1NMA531
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: BASIC NUMERICAL METHODS\nSubject Code: 17B1NMA531\nTe
- acher: New Faculty 5\nVenue: FF9\nType: L\nBatches: A5\, B7\, B11\, B10\, 
- B1\, A6\, A\, C2\, B8\, B5\, B3\, C1\, A10\, B13\, A16\, B9\, B14\, A7\, B
- 2\, A8\, A1\, B6\, A4\, A2\, B4\, A15\, B12\, A18\, A17\, A3\, C3
+DESCRIPTION:Subject: Basic Numerical Methods\nSubject Code: 17B1NMA531\nTe
+ acher: New Faculty 5\nVenue: FF9\nType: L\nBatches: A18\, A5\, B6\, B11\, 
+ C3\, B9\, B14\, A3\, B1\, C2\, A4\, A7\, B7\, B5\, B8\, A8\, A6\, A1\, A2\
+ , A16\, B2\, B3\, C1\, B4\, B10\, A17\, A10\, B12\, A\, A15\, B13
 LOCATION:FF9
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
@@ -822,7 +841,7 @@ BEGIN:VEVENT
 SUMMARY:PH412 (PH412)
 DTSTART;TZID=Asia/Kolkata:20260723T120000
 DTEND;TZID=Asia/Kolkata:20260723T130000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_12:00 PM_PH412
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: PH412\nSubject Code: PH412\nTeacher: Dr. Radha Krisha
@@ -836,7 +855,7 @@ BEGIN:VEVENT
 SUMMARY:Computer Vision Workshop Lab (24B15CS352)
 DTSTART;TZID=Asia/Kolkata:20260723T120000
 DTEND;TZID=Asia/Kolkata:20260723T130000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Thursday_12:00 PM_24B15CS352
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Vision Workshop Lab\nSubject Code: 24B15CS35
@@ -847,212 +866,10 @@ LOCATION:CL09
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HS311 (HS311)
-DTSTART;TZID=Asia/Kolkata:20260723T150000
-DTEND;TZID=Asia/Kolkata:20260723T160000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Thursday_03:00 PM_HS311
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: HS311\nSubject Code: HS311\nTeacher: Dr. Ila Joshi\nV
- enue: CS1\nType: L\nBatches: B9\, B10
-LOCATION:CS1
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PH534 (PH534)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH534
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH534\nSubject Code: PH534\nTeacher: Prof. Rakesh Kum
- ar Dwivedi\nVenue: G5\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\
- , A10\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\,
-  B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
-LOCATION:G5
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PH533 (PH533)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH533
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH533\nSubject Code: PH533\nTeacher: Dr. Navneet K. S
- harma\nVenue: CS1\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A1
- 0\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\
- , B6\, A4\, A2\, B4\, A18\, A8\, A3
-LOCATION:CS1
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PH531 (PH531)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH531
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH531\nSubject Code: PH531\nTeacher: Dr. Anuraj Panwa
- r\nVenue: CS3\nType: L\nBatches: B7\, B10\, B11\, B1\, B6\, B8\, B4\, B5\,
-  B12\, B13\, B9\, B14\, B3\, B2
-LOCATION:CS3
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PH535 (PH535)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH535
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH535\nSubject Code: PH535\nTeacher: Dr. Manoj Tripat
- hi\nVenue: CS4\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A10\,
-  B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\, B
- 6\, A4\, A2\, B4\, A18\, A8\, A3
-LOCATION:CS4
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PH532 (PH532)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH532
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: PH532\nSubject Code: PH532\nTeacher: Dr. Ashish Batna
- gar\nVenue: CR301\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B8\, B5\, A1
- 0\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3\, B9\, B2\
- , B6\, A4\, A2\, B4\, A18\, A8\, A3
-LOCATION:CR301
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Engineering Materials and Technology (PH311)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH311
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Engineering Materials and Technology\nSubject Code: P
- H311\nTeacher: Dr. Radha Krishan Gopal\nVenue: CR401\nType: L\nBatches: B7
- \, B11\, A\, A6\, B1\, B8\, B5\, A10\, B13\, A16\, A7\, A1\, A15\, B12\, A
- 17\, B14\, A5\, B10\, B3\, B9\, B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
-LOCATION:CR401
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MATRIX COMPUTATIONS (16B1NMA533)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_16B1NMA533
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: MATRIX COMPUTATIONS\nSubject Code: 16B1NMA533\nTeache
- r: Dr. Manish Kumar Bansal\nVenue: CR501\nType: L\nBatches: A5\, B7\, B11\
- , B10\, B1\, A6\, A\, C2\, B8\, B5\, B3\, C1\, A10\, B13\, A16\, B9\, B14\
- , A7\, B2\, A8\, A1\, B6\, A4\, A2\, B4\, A15\, B12\, A18\, A17\, A3\, C3
-LOCATION:CR501
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:THEORY OF NUMBERS (16B1NMA731)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_16B1NMA731
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: THEORY OF NUMBERS\nSubject Code: 16B1NMA731\nTeacher:
-  New Faculty 3\nVenue: CR526\nType: L\nBatches: B7\, B11\, A\, A6\, B1\, B
- 8\, B5\, A10\, B13\, A16\, A7\, A1\, A15\, B12\, A17\, B14\, A5\, B10\, B3
- \, B9\, B2\, B6\, A4\, A2\, B4\, A18\, A8\, A3
-LOCATION:CR526
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BASIC NUMERICAL METHODS (17B1NMA531)
-DTSTART;TZID=Asia/Kolkata:20260724T080000
-DTEND;TZID=Asia/Kolkata:20260724T090000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_17B1NMA531
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: BASIC NUMERICAL METHODS\nSubject Code: 17B1NMA531\nTe
- acher: New Faculty 5\nVenue: FF4\nType: L\nBatches: A5\, B7\, B11\, B10\, 
- B1\, A6\, A\, C2\, B8\, B5\, B3\, C1\, A10\, B13\, A16\, B9\, B14\, A7\, B
- 2\, A8\, A1\, B6\, A4\, A2\, B4\, A15\, B12\, A18\, A17\, A3\, C3
-LOCATION:FF4
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Soft Computing Fundamentals Lab (CS311)
-DTSTART;TZID=Asia/Kolkata:20260724T090000
-DTEND;TZID=Asia/Kolkata:20260724T100000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS311
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Soft Computing Fundamentals Lab\nSubject Code: CS311\
- nTeacher: Dr. Ankita Verma\nVenue: G2\nType: L\nBatches: B7\, B10\, B11\, 
- B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
-LOCATION:G2
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Computer and Cyber Security Fundamentals Lab (CS312)
-DTSTART;TZID=Asia/Kolkata:20260724T090000
-DTEND;TZID=Asia/Kolkata:20260724T100000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS312
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Computer and Cyber Security Fundamentals Lab\nSubject
-  Code: CS312\nTeacher: Dr. Kapil Madan\nVenue: G5\nType: L\nBatches: B7\, 
- B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
-LOCATION:G5
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Mining and Data Warehousing Lab (CS313)
-DTSTART;TZID=Asia/Kolkata:20260724T090000
-DTEND;TZID=Asia/Kolkata:20260724T100000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS313
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: C
- S313\nTeacher: Ms. Sayani\nVenue: CS1\nType: L\nBatches: B7\, B10\, B11\, 
- B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
-LOCATION:CS1
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fundamentals of Agile Software Development Lab (CS314)
-DTSTART;TZID=Asia/Kolkata:20260724T090000
-DTEND;TZID=Asia/Kolkata:20260724T100000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS314
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of Agile Software Development Lab\nSubje
- ct Code: CS314\nTeacher: Dr. Indu Chawla\nVenue: CS3\nType: L\nBatches: B7
- \, B10\, B11\, B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
-LOCATION:CS3
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fundamentals of IoT Analytics Lab (CS315)
-DTSTART;TZID=Asia/Kolkata:20260724T090000
-DTEND;TZID=Asia/Kolkata:20260724T100000
-DTSTAMP:20260720T080152Z
-UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS315
-RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Fundamentals of IoT Analytics Lab\nSubject Code: CS31
- 5\nTeacher: Sumeshwar Singh\nVenue: CS4\nType: L\nBatches: B7\, B10\, B11\
- , B1\, B6\, B8\, B4\, B5\, B12\, B13\, B9\, B14\, B3\, B2
-LOCATION:CS4
-X-GOOGLE-DEFAULT-REMINDERS:false
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Computer Networks Lab (15CS313)
 DTSTART;TZID=Asia/Kolkata:20260724T100000
 DTEND;TZID=Asia/Kolkata:20260724T120000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Friday_10:00 AM_15CS313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Networks Lab\nSubject Code: 15CS313\nTeacher
@@ -1062,35 +879,224 @@ LOCATION:CL09/CL10
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Computer and Cyber Security Fundamentals Lab (CS312)
+SUMMARY:Operating Systems (CS312)
 DTSTART;TZID=Asia/Kolkata:20260724T130000
 DTEND;TZID=Asia/Kolkata:20260724T140000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Friday_01:00 PM_CS312
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Computer and Cyber Security Fundamentals Lab\nSubject
-  Code: CS312\nTeacher: Dr. Prakash Kumar\nVenue: G5\nType: L\nBatches: B9\
- , B10
+DESCRIPTION:Subject: Operating Systems\nSubject Code: CS312\nTeacher: Dr. 
+ Prakash Kumar\nVenue: G5\nType: L\nBatches: B9\, B10
 LOCATION:G5
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data Mining and Data Warehousing Lab (CS313)
+SUMMARY:Computer Networks (CS313)
 DTSTART;TZID=Asia/Kolkata:20260724T140000
 DTEND;TZID=Asia/Kolkata:20260724T150000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Friday_02:00 PM_CS313
 RRULE:FREQ=WEEKLY;COUNT=16
-DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: C
- S313\nTeacher: Ms. Amarjeet Kaur\nVenue: G5\nType: L\nBatches: B9\, B10
+DESCRIPTION:Subject: Computer Networks\nSubject Code: CS313\nTeacher: Ms. 
+ Amarjeet Kaur\nVenue: G5\nType: L\nBatches: B9\, B10
 LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biomaterial Science (PH534)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH534
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Biomaterial Science\nSubject Code: PH534\nTeacher: Pr
+ of. Rakesh Kumar Dwivedi\nVenue: G5\nType: L\nBatches: B11\, A3\, B14\, A4
+ \, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6
+ \, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laser Technology and Applications (PH533)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH533
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Laser Technology and Applications\nSubject Code: PH53
+ 3\nTeacher: Dr. Navneet K. Sharma\nVenue: CS1\nType: L\nBatches: B11\, A3\
+ , B14\, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8
+ \, A8\, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:CS1
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quantum Mechanics for Engineers (PH531)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH531
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Quantum Mechanics for Engineers\nSubject Code: PH531\
+ nTeacher: Dr. Anuraj Panwar\nVenue: CS3\nType: L\nBatches: B2\, B6\, B3\, 
+ B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
+LOCATION:CS3
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nuclear Science and Engineering (PH535)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH535
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Nuclear Science and Engineering\nSubject Code: PH535\
+ nTeacher: Dr. Manoj Tripathi\nVenue: CS4\nType: L\nBatches: B11\, A3\, B14
+ \, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8
+ \, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:CS4
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Material Science (PH532)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH532
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Material Science\nSubject Code: PH532\nTeacher: Dr. A
+ shish Batnagar\nVenue: CR301\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\,
+  B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\,
+  A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:CR301
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Engineering Materials and Technology (PH311)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_PH311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Engineering Materials and Technology\nSubject Code: P
+ H311\nTeacher: Dr. Radha Krishan Gopal\nVenue: CR401\nType: L\nBatches: B1
+ 1\, A3\, B14\, A4\, A7\, B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, 
+ B7\, B8\, A8\, A6\, A2\, A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:CR401
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Matrix Computations (16B1NMA533)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_16B1NMA533
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Matrix Computations\nSubject Code: 16B1NMA533\nTeache
+ r: Dr. Manish Kumar Bansal\nVenue: CR501\nType: L\nBatches: A18\, A5\, B6\
+ , B11\, C3\, B9\, B14\, A3\, B1\, C2\, A4\, A7\, B7\, B5\, B8\, A8\, A6\, 
+ A1\, A2\, A16\, B2\, B3\, C1\, B4\, B10\, A17\, A10\, B12\, A\, A15\, B13
+LOCATION:CR501
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Theory of Numbers (16B1NMA731)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_16B1NMA731
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Theory of Numbers\nSubject Code: 16B1NMA731\nTeacher:
+  New Faculty 3\nVenue: CR526\nType: L\nBatches: B11\, A3\, B14\, A4\, A7\,
+  B5\, B10\, A10\, A5\, B12\, A18\, B6\, B9\, B1\, B7\, B8\, A8\, A6\, A2\,
+  A16\, B2\, B3\, B4\, A17\, A1\, A\, A15\, B13
+LOCATION:CR526
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Basic Numerical Methods (17B1NMA531)
+DTSTART;TZID=Asia/Kolkata:20260724T080000
+DTEND;TZID=Asia/Kolkata:20260724T090000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_08:00 AM_17B1NMA531
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Basic Numerical Methods\nSubject Code: 17B1NMA531\nTe
+ acher: New Faculty 5\nVenue: FF4\nType: L\nBatches: A18\, A5\, B6\, B11\, 
+ C3\, B9\, B14\, A3\, B1\, C2\, A4\, A7\, B7\, B5\, B8\, A8\, A6\, A1\, A2\
+ , A16\, B2\, B3\, C1\, B4\, B10\, A17\, A10\, B12\, A\, A15\, B13
+LOCATION:FF4
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soft Computing Fundamentals (CS311)
+DTSTART;TZID=Asia/Kolkata:20260724T090000
+DTEND;TZID=Asia/Kolkata:20260724T100000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS311
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Soft Computing Fundamentals\nSubject Code: CS311\nTea
+ cher: Dr. Ankita Verma\nVenue: G2\nType: L\nBatches: B2\, B6\, B3\, B11\, 
+ B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
+LOCATION:G2
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Computer and Cyber Security Fundamentals (CS312)
+DTSTART;TZID=Asia/Kolkata:20260724T090000
+DTEND;TZID=Asia/Kolkata:20260724T100000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS312
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Computer and Cyber Security Fundamentals\nSubject Cod
+ e: CS312\nTeacher: Dr. Kapil Madan\nVenue: G5\nType: L\nBatches: B2\, B6\,
+  B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
+LOCATION:G5
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Mining and Data Warehousing (CS313)
+DTSTART;TZID=Asia/Kolkata:20260724T090000
+DTEND;TZID=Asia/Kolkata:20260724T100000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS313
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Data Mining and Data Warehousing\nSubject Code: CS313
+ \nTeacher: Ms. Sayani\nVenue: CS1\nType: L\nBatches: B2\, B6\, B3\, B11\, 
+ B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
+LOCATION:CS1
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fundamentals of Agile Software Development (CS314)
+DTSTART;TZID=Asia/Kolkata:20260724T090000
+DTEND;TZID=Asia/Kolkata:20260724T100000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS314
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Fundamentals of Agile Software Development\nSubject C
+ ode: CS314\nTeacher: Dr. Indu Chawla\nVenue: CS3\nType: L\nBatches: B2\, B
+ 6\, B3\, B11\, B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
+LOCATION:CS3
+X-GOOGLE-DEFAULT-REMINDERS:false
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fundamentals of IoT Analytics (CS315)
+DTSTART;TZID=Asia/Kolkata:20260724T090000
+DTEND;TZID=Asia/Kolkata:20260724T100000
+DTSTAMP:20260722T100328Z
+UID:btech-62_sem5_phase1_b10_Friday_09:00 AM_CS315
+RRULE:FREQ=WEEKLY;COUNT=16
+DESCRIPTION:Subject: Fundamentals of IoT Analytics\nSubject Code: CS315\nT
+ eacher: Sumeshwar Singh\nVenue: CS4\nType: L\nBatches: B2\, B6\, B3\, B11\
+ , B4\, B10\, B9\, B14\, B1\, B12\, B7\, B8\, B5\, B13
+LOCATION:CS4
 X-GOOGLE-DEFAULT-REMINDERS:false
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Data Mining and Data Warehousing Lab (16CS313)
 DTSTART;TZID=Asia/Kolkata:20260725T100000
 DTEND;TZID=Asia/Kolkata:20260725T120000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Saturday_10:00 AM_16CS313
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Data Mining and Data Warehousing Lab\nSubject Code: 1
@@ -1103,7 +1109,7 @@ BEGIN:VEVENT
 SUMMARY:Soft Computing Fundamentals Lab (16CS311)
 DTSTART;TZID=Asia/Kolkata:20260725T080000
 DTEND;TZID=Asia/Kolkata:20260725T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Saturday_08:00 AM_16CS311
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Soft Computing Fundamentals Lab\nSubject Code: 16CS31
@@ -1116,7 +1122,7 @@ BEGIN:VEVENT
 SUMMARY:Fundamentals of IoT Analytics Lab (16CS315)
 DTSTART;TZID=Asia/Kolkata:20260725T080000
 DTEND;TZID=Asia/Kolkata:20260725T100000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Saturday_08:00 AM_16CS315
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Fundamentals of IoT Analytics Lab\nSubject Code: 16CS
@@ -1129,7 +1135,7 @@ BEGIN:VEVENT
 SUMMARY:Computer Vision Workshop Lab (24B15CS352)
 DTSTART;TZID=Asia/Kolkata:20260725T120000
 DTEND;TZID=Asia/Kolkata:20260725T130000
-DTSTAMP:20260720T080152Z
+DTSTAMP:20260722T100328Z
 UID:btech-62_sem5_phase1_b10_Saturday_12:00 PM_24B15CS352
 RRULE:FREQ=WEEKLY;COUNT=16
 DESCRIPTION:Subject: Computer Vision Workshop Lab\nSubject Code: 24B15CS35
