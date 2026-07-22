@@ -5,6 +5,22 @@
   "elective_columns": {
     "btech-128_sem5_phase1": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
   },
+  "elective_additions": {
+    "btech-128_sem5_phase1": {
+      "24B15CS317": "Fundamentals of Blockchain Technology Lab",
+      "24B15CS318": "Fundamentals of Computing for Data Science Lab",
+      "24B16CS313": "Data Mining and Data Warehousing Lab",
+      "24B16CS316": "Fundamentals of Image Processing and Computer Vision Lab",
+      "24B16CS320": "Fundamentals of Graph Theory Lab"
+    }
+  },
+  "minor_courses": {
+    "btech-128_sem5_phase1": {
+      "19B12CS413": "Fog and Edge Computing",
+      "19B12CS426": "IoT Analytics",
+      "21B12CS414": "Smart Systems and IoT"
+    }
+  },
   "electives": {
     "btech-62_sem5_phase1": {
       "17B11EC731": "Mobile Communication",
