@@ -120,7 +120,13 @@ def get_events(
             # print(ev)
             batches = batches.union(ev.batches)
 
-    return evs, sorted(batches, key=split_on_number)
+    batches.discard("ALL")
+    sorted_batches = sorted(batches, key=split_on_number)
+    for ev in evs:
+        if ev is not None and "ALL" in ev.batches:
+            ev.batches = sorted_batches
+
+    return evs, sorted_batches
 
 
 def filter_events(evs: List[Event | Elective], batch: str, day: str) -> List[dict]:
