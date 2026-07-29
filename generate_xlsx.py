@@ -5,7 +5,7 @@ from openpyxl import Workbook
 
 # PDF = "https://www.jiit.ac.in/sites/default/files/B.TECH_.%20I%20Sem%20Odd%202025%20Wish%20Town.pdf"
 
-PDF = "./2026_ B. Tech. III Yr(V SEMESTER) TIMETABLE ODD SEMESTER 2026, JIIT-128 - Sheet2.pdf"
+PDF = "./2026_B. Tech. II Yr(III SEMESTER) TIMETABLE ODD SEMESTER 2026, JIIT-128 - Sheet2.pdf"
 PAGES = "all"
 
 tables = camelot.read_pdf(
