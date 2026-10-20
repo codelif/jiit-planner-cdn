@@ -25,7 +25,7 @@ def maps():
     phases: Dict[str, Dict[str, List[str]]] = {}
     paths: Dict[str, str] = {}
 
-    for branch in os.listdir(TIME_TABLE):
+    for branch in sorted(os.listdir(TIME_TABLE)):
         if not os.path.isdir(os.path.join(TIME_TABLE, branch)):
             continue
 
@@ -35,14 +35,14 @@ def maps():
         semesters[branch_code] = []
         phases[branch_code] = {}
 
-        for sem in os.listdir(os.path.join(TIME_TABLE, branch)):
+        for sem in sorted(os.listdir(os.path.join(TIME_TABLE, branch))):
             if not os.path.isdir(os.path.join(TIME_TABLE, branch, sem)):
                 continue
 
             semesters[branch_code].append(sem)
             phases[branch_code][sem] = []
 
-            for tt in os.listdir(os.path.join(TIME_TABLE, branch, sem)):
+            for tt in sorted(os.listdir(os.path.join(TIME_TABLE, branch, sem))):
                 path = os.path.abspath(os.path.join(TIME_TABLE, branch, sem, tt))
                 if not os.path.isfile(path):
                     continue
