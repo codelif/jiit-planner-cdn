@@ -152,7 +152,7 @@ def filter_events(evs: List[Event | Elective], batch: str, day: str) -> List[dic
         data["subject"] = ev.event or ev.eventcode
         data["subjectcode"] = ev.eventcode
         data["teacher"] = ", ".join(ev.lecturer)
-        data["batches"] = ev.batches
+        data["batches"] = sorted(ev.batches, key=split_on_number)
         data["venue"] = ev.classroom
         data["type"] = ev.event_type
 
@@ -197,7 +197,7 @@ def get_electives(evs: List[Event | Elective], batches: List[str]) -> List[dict]
 
         if len(ev.batches) == 0:
             ev.batches = batches
-        data["batches"] = ev.batches
+        data["batches"] = sorted(ev.batches, key=split_on_number)
         data["category"] = ev.category
         data["venue"] = ev.classroom
         data["type"] = ev.event_type
