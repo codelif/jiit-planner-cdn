@@ -1,8 +1,10 @@
 import datetime
+import gzip
 import json
 import os
 from typing import Dict, List
 
+import cbor2
 from generate_curriculum import curriculum
 from generate_icalendar import generate_icalendars_json
 from jiit_tt_parser.parser import parse_events
@@ -292,6 +294,81 @@ def generate_json():
     return metadata, classes
 
 
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+
+def to_minutes(t: str) -> int:
+    clock = datetime.datetime.strptime(t, "%I:%M %p")
+    return clock.hour * 60 + clock.minute
+
+
+def build_planner(metadata: dict, classes: dict) -> dict:
+    """
+    every batch in one deduplicated blob for apps: text lives once in strings,
+    each class once in events, batches and electives point at event ids.
+    event: [day 0=mon, start, end, subject, code, teacher, venue, type, category, elective, [batches]]
+    times are minutes from midnight, a missing category is -1.
+    """
+    strings: Dict[str, int] = {}
+    events: Dict[tuple, int] = {}
+
+    def sid(s):
+        if s is None:
+            return -1
+        if s not in strings:
+            strings[s] = len(strings)
+        return strings[s]
+
+    def eid(e: dict) -> int:
+        start, end = to_minutes(e["start"]), to_minutes(e["end"])
+        # the parser writes 8 am classes as ending at 08:50 pm
+        if end - start > 180 and end - 720 > start:
+            end -= 720
+        key = (
+            DAYS.index(e["day"].lower()),
+            start,
+            end,
+            sid(e["subject"]),
+            sid(e["subjectcode"]),
+            sid(e["teacher"]),
+            sid(e["venue"]),
+            sid(e["type"]),
+            sid(e.get("category")),
+            1 if e["is_elective"] else 0,
+            tuple(sid(b) for b in e["batches"]),
+        )
+        if key not in events:
+            events[key] = len(events)
+        return events[key]
+
+    courses = []
+    for course in metadata["courses"]:
+        c = course["id"]
+        sems = []
+        for sem in metadata["semesters"][c]:
+            s = sem["id"]
+            phases = []
+            for phase in metadata["phases"][c][s]:
+                p = phase["id"]
+                batches = []
+                for batch in metadata["batches"][c][s][p]:
+                    week = classes["_".join((c, s, p, batch["id"]))]["classes"]
+                    ids = [eid(e) for day in week.values() for e in day]
+                    batches.append({"id": batch["id"], "name": batch["name"], "events": ids})
+                electives = [eid(e) for e in classes["electives"].get("_".join((c, s, p)), [])]
+                phases.append({"id": p, "name": phase["name"], "electives": electives, "batches": batches})
+            sems.append({"id": s, "name": sem["name"], "phases": phases})
+        courses.append({"id": c, "name": course["name"], "semesters": sems})
+
+    return {
+        "format": 1,
+        "version": metadata["cacheVersion"],
+        "strings": list(strings),
+        "events": [list(k[:10]) + [list(k[10])] for k in events],
+        "courses": courses,
+    }
+
+
 if __name__ == "__main__":
     get_faculty_map()
 
@@ -306,6 +383,9 @@ if __name__ == "__main__":
         json.dump(classes, f)
     with open("metadata.json", "w+") as f:
         json.dump(metadata, f)
+    # mtime=0 so the same data always gzips to the same bytes
+    with open("planner.cbor.gz", "wb") as f:
+        f.write(gzip.compress(cbor2.dumps(build_planner(metadata, classes)), 9, mtime=0))
 
     # Generate iCalendar files
     generate_icalendars_json("classes.json")
